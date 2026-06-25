@@ -1,0 +1,691 @@
+{
+  "metadata": {
+    "mon": "Trí tuệ nhân tạo (AI)",
+    "lop": 10,
+    "truong": "THPT Nguyễn Khuyến (Công lập)",
+    "dia_chi": "Phường Hòa Hưng, Quận 10, TP.HCM",
+    "loai_mon": "Môn tự chọn",
+    "cau_truc": "2 tiết liền/tuần = 1 bài/tuần",
+    "si_so": "26–30 HS",
+    "phong": "Phòng máy tính",
+    "phap_ly": "Thông tư 02/2025/TT-BGDĐT",
+    "tong_tuan": 21,
+    "tong_bai": 19,
+    "tong_kiem_tra": 2,
+    "tiet_thuc_day": 42,
+    "tiet_thiet_ke": 54,
+    "tiet_ke_hoach": 70
+  },
+
+  "giai_doan": [
+    {
+      "id": "GD1",
+      "ten": "Khám phá: AI là gì?",
+      "mo_ta": "Nền tảng AI, Dữ liệu, Bias, An toàn số, Deepfake",
+      "tuan_tu": 1, "tuan_den": 5,
+      "tiet_tu": 1, "tiet_den": 10,
+      "nls_trong_tam": ["6.1.NC1a", "1.2.NC1a", "4.1", "4.2", "4.3"],
+      "mau": "#3b82f6"
+    },
+    {
+      "id": "GD2",
+      "ten": "Hiểu: Máy học cơ bản",
+      "mo_ta": "ML, Classification/Prediction, Teachable Machine",
+      "tuan_tu": 6, "tuan_den": 10,
+      "tiet_tu": 11, "tiet_den": 20,
+      "nls_trong_tam": ["6.1.NC1b", "6.2.NC1a", "6.2.NC1b", "6.3.NC1a", "6.3.NC1b", "5.3.NC1a"],
+      "mau": "#10b981"
+    },
+    {
+      "id": "KT1",
+      "ten": "Kiểm tra Định kỳ 1",
+      "mo_ta": "Lý thuyết + Thực hành Teachable Machine",
+      "tuan_tu": 11, "tuan_den": 11,
+      "tiet_tu": 21, "tiet_den": 22,
+      "nls_trong_tam": ["6.1.NC1a", "6.2.NC1a", "6.3.NC1a", "6.3.NC1b"],
+      "mau": "#f59e0b"
+    },
+    {
+      "id": "GD3",
+      "ten": "Tạo ra: Dự án AI đầu tiên",
+      "mo_ta": "Toàn vòng đời dự án — 7 tuần bất khả xâm phạm",
+      "tuan_tu": 12, "tuan_den": 18,
+      "tiet_tu": 23, "tiet_den": 36,
+      "nls_trong_tam": ["5.2.NC1a", "5.3.NC1a", "6.2.NC1a", "6.2.NC1b", "6.3.NC1a", "1.3.NC1a", "3.1.NC1a", "2.4.NC1a"],
+      "mau": "#8b5cf6"
+    },
+    {
+      "id": "GD4",
+      "ten": "Kết nối: Công dân AI",
+      "mo_ta": "Nghề nghiệp, đạo đức AI, Portfolio",
+      "tuan_tu": 19, "tuan_den": 20,
+      "tiet_tu": 37, "tiet_den": 40,
+      "nls_trong_tam": ["5.4.NC1a", "6.2.NC1c", "4.2.NC1a", "2.5.NC1a"],
+      "mau": "#ec4899"
+    },
+    {
+      "id": "KT2",
+      "ten": "Kiểm tra Định kỳ 2",
+      "mo_ta": "Báo cáo dự án + Triển lãm + Portfolio",
+      "tuan_tu": 21, "tuan_den": 21,
+      "tiet_tu": 41, "tiet_den": 42,
+      "nls_trong_tam": ["6.2.NC1a", "6.3.NC1a", "5.3.NC1a", "5.4.NC1a", "3.1.NC1a"],
+      "mau": "#f59e0b"
+    }
+  ],
+
+  "tuan": [
+    { "so_tuan": 1,  "giai_doan": "GD1", "so_bai": 1,  "ten_bai": "AI là gì & Lịch sử AI",                          "tiet": [1, 2]   },
+    { "so_tuan": 2,  "giai_doan": "GD1", "so_bai": 2,  "ten_bai": "AI hẹp, AI tổng quát & Deepfake",                "tiet": [3, 4]   },
+    { "so_tuan": 3,  "giai_doan": "GD1", "so_bai": 3,  "ten_bai": "Dữ liệu trong AI",                               "tiet": [5, 6]   },
+    { "so_tuan": 4,  "giai_doan": "GD1", "so_bai": 4,  "ten_bai": "Thiên kiến & An toàn số",                        "tiet": [7, 8]   },
+    { "so_tuan": 5,  "giai_doan": "GD1", "so_bai": 5,  "ten_bai": "[Toán CN1] Xác suất & Spam Filter",              "tiet": [9, 10]  },
+    { "so_tuan": 6,  "giai_doan": "GD2", "so_bai": 6,  "ten_bai": "Machine Learning & Phân loại/Dự báo",            "tiet": [11, 12] },
+    { "so_tuan": 7,  "giai_doan": "GD2", "so_bai": 7,  "ten_bai": "[Toán CN2] Thống kê & Outlier",                  "tiet": [13, 14] },
+    { "so_tuan": 8,  "giai_doan": "GD2", "so_bai": 8,  "ten_bai": "[Toán CN3] Hồi quy tuyến tính trực quan",        "tiet": [15, 16] },
+    { "so_tuan": 9,  "giai_doan": "GD2", "so_bai": 9,  "ten_bai": "Teachable Machine — Huấn luyện & Cải thiện",     "tiet": [17, 18] },
+    { "so_tuan": 10, "giai_doan": "GD2", "so_bai": 10, "ten_bai": "AI ứng dụng thực tế & Ôn tập",                   "tiet": [19, 20] },
+    { "so_tuan": 11, "giai_doan": "KT1", "so_bai": null, "ten_bai": "Kiểm tra Định kỳ 1",                           "tiet": [21, 22] },
+    { "so_tuan": 12, "giai_doan": "GD3", "so_bai": 11, "ten_bai": "Design Thinking & Hình thành dự án",             "tiet": [23, 24] },
+    { "so_tuan": 13, "giai_doan": "GD3", "so_bai": 12, "ten_bai": "Thu thập & Làm sạch dữ liệu",                    "tiet": [25, 26] },
+    { "so_tuan": 14, "giai_doan": "GD3", "so_bai": 13, "ten_bai": "Huấn luyện mô hình lần 1 & Đánh giá",           "tiet": [27, 28] },
+    { "so_tuan": 15, "giai_doan": "GD3", "so_bai": 14, "ten_bai": "Cải thiện mô hình & Khảo sát người dùng",        "tiet": [29, 30] },
+    { "so_tuan": 16, "giai_doan": "GD3", "so_bai": 15, "ten_bai": "Hoàn thiện sản phẩm & Tài liệu",                "tiet": [31, 32] },
+    { "so_tuan": 17, "giai_doan": "GD3", "so_bai": 16, "ten_bai": "Luyện thuyết trình & Chuẩn bị Demo Day",         "tiet": [33, 34] },
+    { "so_tuan": 18, "giai_doan": "GD3", "so_bai": 17, "ten_bai": "Demo Day & Bảo vệ dự án",                        "tiet": [35, 36] },
+    { "so_tuan": 19, "giai_doan": "GD4", "so_bai": 18, "ten_bai": "Nghề nghiệp AI & Đạo đức AI",                   "tiet": [37, 38] },
+    { "so_tuan": 20, "giai_doan": "GD4", "so_bai": 19, "ten_bai": "Portfolio AI & Tổng kết hành trình",             "tiet": [39, 40] },
+    { "so_tuan": 21, "giai_doan": "KT2", "so_bai": null, "ten_bai": "Kiểm tra Định kỳ 2",                           "tiet": [41, 42] }
+  ],
+
+  "tiet": [
+    {
+      "so_tiet": 1, "so_tuan": 1, "so_bai": 1, "giai_doan": "GD1",
+      "ten_bai": "AI là gì & Lịch sử AI",
+      "loai": "bai_hoc",
+      "noi_dung": "AI là gì? Xem video thực tế, thảo luận \"AI đã thay đổi cuộc sống tôi như thế nào\", nhận diện AI trong 10 ứng dụng quen thuộc",
+      "phuong_phap": "Xem video (5 phút) → Thảo luận cặp đôi → Chia sẻ lớp",
+      "san_pham": "Phiếu \"AI trong cuộc sống tôi\" (cá nhân)",
+      "cong_cu": {
+        "gv": "Máy tính + Máy chiếu",
+        "hs": "Phiếu học tập in sẵn"
+      },
+      "mien_ai": "A1",
+      "nang_luc_so": ["6.1.NC1a", "1.2.NC1a"]
+    },
+    {
+      "so_tiet": 2, "so_tuan": 1, "so_bai": 1, "giai_doan": "GD1",
+      "ten_bai": "AI là gì & Lịch sử AI",
+      "loai": "bai_hoc",
+      "noi_dung": "Lịch sử AI qua cột mốc lớn: Nhóm vẽ timeline từ 1950 đến nay, gắn sự kiện thực tế, thuyết minh nhanh 1 phút/nhóm",
+      "phuong_phap": "Hoạt động nhóm 4 → Vẽ Timeline giấy lớn → Thuyết minh",
+      "san_pham": "Sơ đồ dòng thời gian AI (nhóm)",
+      "cong_cu": {
+        "gv": "Máy chiếu, bút dạ, giấy A1",
+        "hs": "Bút màu, sticker sự kiện"
+      },
+      "mien_ai": "A1",
+      "nang_luc_so": ["6.1.NC1a", "6.1.NC1b"]
+    },
+    {
+      "so_tiet": 3, "so_tuan": 2, "so_bai": 2, "giai_doan": "GD1",
+      "ten_bai": "AI hẹp, AI tổng quát & Deepfake",
+      "loai": "bai_hoc",
+      "noi_dung": "AI hẹp vs AI tổng quát: Phân loại 15 ứng dụng AI qua trò chơi nhóm \"Đây là AI gì?\", làm poster phân loại",
+      "phuong_phap": "Game phân loại nhóm → Poster → Trình bày 1 phút/nhóm",
+      "san_pham": "Poster phân loại AI (nhóm 4)",
+      "cong_cu": {
+        "gv": "Thẻ bài AI in sẵn, máy chiếu",
+        "hs": "Giấy A2, bút dạ, keo dán"
+      },
+      "mien_ai": "C2",
+      "nang_luc_so": ["6.1.NC1a", "6.1.NC1b"]
+    },
+    {
+      "so_tiet": 4, "so_tuan": 2, "so_bai": 2, "giai_doan": "GD1",
+      "ten_bai": "AI hẹp, AI tổng quát & Deepfake",
+      "loai": "bai_hoc",
+      "noi_dung": "Deepfake là gì? Phân tích video/ảnh thật vs giả, thực hành checklist nhận diện nội dung giả mạo trên 5 mẫu cho sẵn",
+      "phuong_phap": "Phân tích media theo cặp → Checklist thực hành → Thảo luận lớp",
+      "san_pham": "Checklist nhận diện Deepfake (cá nhân)",
+      "cong_cu": {
+        "gv": "Máy chiếu, bộ ảnh/video mẫu thật-giả",
+        "hs": "Phiếu checklist in sẵn"
+      },
+      "mien_ai": "B2",
+      "nang_luc_so": ["1.2.NC1a", "4.3.NC1b", "4.1.NC1b"]
+    },
+    {
+      "so_tiet": 5, "so_tuan": 3, "so_bai": 3, "giai_doan": "GD1",
+      "ten_bai": "Dữ liệu trong AI",
+      "loai": "toan_cn",
+      "noi_dung": "Dữ liệu là gì? Phân loại 4 loại (văn bản, số, ảnh, âm thanh) — thực hành phân loại trực tiếp trên máy với bộ mẫu cho sẵn",
+      "phuong_phap": "Thực hành máy tính cá nhân → Phân loại → Đối chiếu đáp án",
+      "san_pham": "Bộ dữ liệu mẫu đã phân loại (cá nhân)",
+      "cong_cu": {
+        "gv": "File mẫu 4 loại dữ liệu trên Google Drive",
+        "hs": "Máy tính + Google Drive hoặc USB"
+      },
+      "mien_ai": "C4",
+      "nang_luc_so": ["1.1.NC1b", "1.3.NC1a"]
+    },
+    {
+      "so_tiet": 6, "so_tuan": 3, "so_bai": 3, "giai_doan": "GD1",
+      "ten_bai": "Dữ liệu trong AI",
+      "loai": "bai_hoc",
+      "noi_dung": "Thu thập dữ liệu từ cuộc sống: Nhóm thu thập 20 mẫu thực (ảnh/số/văn bản quanh trường), ghi nhật ký, kiểm tra chất lượng",
+      "phuong_phap": "Điều tra thực tế trong trường (15 phút) → Nhập Google Sheets → Kiểm tra chéo",
+      "san_pham": "Nhật ký dữ liệu + Bộ dữ liệu thô (nhóm)",
+      "cong_cu": {
+        "gv": "Template Google Sheets chia sẻ sẵn",
+        "hs": "Điện thoại (chụp ảnh) hoặc máy tính"
+      },
+      "mien_ai": "C4",
+      "nang_luc_so": ["1.3.NC1a", "1.3.NC1b", "1.2.NC1a"]
+    },
+    {
+      "so_tiet": 7, "so_tuan": 4, "so_bai": 4, "giai_doan": "GD1",
+      "ten_bai": "Thiên kiến & An toàn số",
+      "loai": "bai_hoc",
+      "noi_dung": "Thiên kiến (Bias) trong AI: Phân tích 2 case study — AI tuyển dụng phân biệt giới tính, AI nhận diện khuôn mặt kém chính xác với người da màu",
+      "phuong_phap": "Đọc case study → Tranh luận nhóm 4 → Báo cáo phán quyết",
+      "san_pham": "Phiếu phân tích Bias (nhóm)",
+      "cong_cu": {
+        "gv": "Phiếu case study in sẵn, máy chiếu",
+        "hs": "Phiếu phân tích, bút"
+      },
+      "mien_ai": "B1",
+      "nang_luc_so": ["1.2.NC1a", "1.2.NC1b", "6.3.NC1a"]
+    },
+    {
+      "so_tiet": 8, "so_tuan": 4, "so_bai": 4, "giai_doan": "GD1",
+      "ten_bai": "Thiên kiến & An toàn số",
+      "loai": "bai_hoc",
+      "noi_dung": "Quyền riêng tư & An toàn số: Workshop xây dựng \"Bộ quy tắc sử dụng AI cá nhân\" (5 điều tôi CAM KẾT khi dùng AI), ký cam kết tập thể",
+      "phuong_phap": "Workshop cá nhân (10 phút) → Chia sẻ nhóm → Ký cam kết",
+      "san_pham": "Bộ quy tắc cá nhân + Cam kết nhóm (poster)",
+      "cong_cu": {
+        "gv": "Template cam kết in sẵn, bút ký",
+        "hs": "Phiếu cá nhân, bút màu"
+      },
+      "mien_ai": "B1",
+      "nang_luc_so": ["4.2.NC1a", "4.2.NC1b", "4.1.NC1b", "2.5.NC1a"]
+    },
+    {
+      "so_tiet": 9, "so_tuan": 5, "so_bai": 5, "giai_doan": "GD1",
+      "ten_bai": "[Toán CN1] Xác suất & Spam Filter",
+      "loai": "toan_cn",
+      "noi_dung": "[Toán CN1 — T1] Xác suất & Spam Filter: Hiểu ý tưởng bộ lọc thư rác qua bài toán xác suất đơn giản — từ 10 từ khóa nghi ngờ, tính xác suất email là spam, liên hệ cách AI lọc email thật",
+      "phuong_phap": "Tình huống thực tế → Tính tay nhóm (đơn giản) → Liên hệ AI",
+      "san_pham": "Phiếu bài tập xác suất cơ bản (nhóm)",
+      "cong_cu": {
+        "gv": "Phiếu bài tập in sẵn, máy chiếu",
+        "hs": "Máy tính bỏ túi hoặc điện thoại"
+      },
+      "mien_ai": "Toán+C3",
+      "nang_luc_so": ["6.1.NC1a", "1.2.NC1a"]
+    },
+    {
+      "so_tiet": 10, "so_tuan": 5, "so_bai": 5, "giai_doan": "GD1",
+      "ten_bai": "[Toán CN1] Xác suất & Spam Filter",
+      "loai": "toan_cn",
+      "noi_dung": "[Toán CN1 — T2] Mô phỏng Spam Filter: Thực hành Google Sheets mô phỏng sẵn — tự phân loại 20 email mẫu, điều chỉnh ngưỡng lọc và quan sát kết quả thay đổi",
+      "phuong_phap": "Google Sheets mô phỏng → Điều chỉnh ngưỡng → Quan sát → Thảo luận",
+      "san_pham": "Bảng mô phỏng Spam Filter đã điền (cá nhân)",
+      "cong_cu": {
+        "gv": "Google Sheets mô phỏng chia sẻ sẵn (link)",
+        "hs": "Máy tính + Google Sheets + internet"
+      },
+      "mien_ai": "Toán+C3",
+      "nang_luc_so": ["5.2.NC1b", "6.1.NC1b", "5.3.NC1a"]
+    },
+    {
+      "so_tiet": 11, "so_tuan": 6, "so_bai": 6, "giai_doan": "GD2",
+      "ten_bai": "Machine Learning & Phân loại/Dự báo",
+      "loai": "bai_hoc",
+      "noi_dung": "Machine Learning là gì? Minh họa trực quan \"máy học như người học\", mô phỏng vòng lặp Train→Test→Improve bằng hoạt động tay (bộ bài nhận diện hình dạng)",
+      "phuong_phap": "GV minh họa dẫn dắt → Hoạt động tay nhóm → Rút kinh nghiệm",
+      "san_pham": "Sơ đồ vòng lặp ML cá nhân",
+      "cong_cu": {
+        "gv": "Bộ thẻ hình dạng in sẵn, máy chiếu",
+        "hs": "Phiếu sơ đồ, bút"
+      },
+      "mien_ai": "C3",
+      "nang_luc_so": ["6.1.NC1a", "6.1.NC1b"]
+    },
+    {
+      "so_tiet": 12, "so_tuan": 6, "so_bai": 6, "giai_doan": "GD2",
+      "ten_bai": "Machine Learning & Phân loại/Dự báo",
+      "loai": "bai_hoc",
+      "noi_dung": "Phân loại (Classification) & Dự báo (Prediction): Case study thực tế + thực hành dự báo đơn giản bằng Google Sheets (dự báo điểm thi từ số giờ học)",
+      "phuong_phap": "Case study phân tích → Thực hành Sheets → Biểu đồ dự báo",
+      "san_pham": "Bảng phân loại + Biểu đồ dự báo (cá nhân)",
+      "cong_cu": {
+        "gv": "Google Sheets template dự báo (link)",
+        "hs": "Máy tính + Google Sheets"
+      },
+      "mien_ai": "C5",
+      "nang_luc_so": ["6.1.NC1b", "5.3.NC1a", "1.1.NC1b"]
+    },
+    {
+      "so_tiet": 13, "so_tuan": 7, "so_bai": 7, "giai_doan": "GD2",
+      "ten_bai": "[Toán CN2] Thống kê & Outlier",
+      "loai": "toan_cn",
+      "noi_dung": "[Toán CN2 — T1] Thống kê mô tả: Trung bình, trung vị, độ lệch chuẩn — dùng dữ liệu thật để tính và hiểu ý nghĩa, tại sao AI cần thống kê",
+      "phuong_phap": "Google Sheets thực hành → Tính → Trực quan biểu đồ → Nhận xét",
+      "san_pham": "Bảng thống kê dữ liệu thực (nhóm)",
+      "cong_cu": {
+        "gv": "Google Sheets dữ liệu thực chuẩn bị sẵn",
+        "hs": "Máy tính + Google Sheets"
+      },
+      "mien_ai": "Toán+C4",
+      "nang_luc_so": ["1.1.NC1b", "1.3.NC1a", "6.1.NC1b"]
+    },
+    {
+      "so_tiet": 14, "so_tuan": 7, "so_bai": 7, "giai_doan": "GD2",
+      "ten_bai": "[Toán CN2] Thống kê & Outlier",
+      "loai": "toan_cn",
+      "noi_dung": "[Toán CN2 — T2] Phát hiện Outlier: Hiểu Outlier là gì, tại sao gây hại cho mô hình AI, phát hiện bằng quy tắc 1.5×IQR trực quan trên biểu đồ box plot",
+      "phuong_phap": "Sheets có box plot sẵn → Tô màu Outlier → Thảo luận tác động AI",
+      "san_pham": "Tệp dữ liệu có đánh dấu Outlier + Nhận xét (nhóm)",
+      "cong_cu": {
+        "gv": "Google Sheets có box plot chuẩn bị sẵn",
+        "hs": "Máy tính + Google Sheets"
+      },
+      "mien_ai": "Toán+C4",
+      "nang_luc_so": ["1.2.NC1a", "6.3.NC1b", "5.1.NC1a"]
+    },
+    {
+      "so_tiet": 15, "so_tuan": 8, "so_bai": 8, "giai_doan": "GD2",
+      "ten_bai": "[Toán CN3] Hồi quy tuyến tính trực quan",
+      "loai": "toan_cn",
+      "noi_dung": "[Toán CN3 — T1] Ý tưởng hồi quy: Hiểu \"AI tìm đường thẳng phù hợp nhất với dữ liệu\" — trực quan bằng GeoGebra, kéo điểm và thấy đường thay đổi, KHÔNG tính toán hình thức",
+      "phuong_phap": "GeoGebra trực quan hóa → Kéo điểm → Quan sát → Rút kết luận",
+      "san_pham": "Ảnh chụp đồ thị GeoGebra + Nhận xét ngắn (cá nhân)",
+      "cong_cu": {
+        "gv": "File GeoGebra chuẩn bị sẵn (geogebra.org)",
+        "hs": "Máy tính + trình duyệt (GeoGebra online)"
+      },
+      "mien_ai": "Toán+C5",
+      "nang_luc_so": ["6.1.NC1a", "5.3.NC1a"]
+    },
+    {
+      "so_tiet": 16, "so_tuan": 8, "so_bai": 8, "giai_doan": "GD2",
+      "ten_bai": "[Toán CN3] Hồi quy tuyến tính trực quan",
+      "loai": "toan_cn",
+      "noi_dung": "[Toán CN3 — T2] Ứng dụng hồi quy trong AI: Vẽ đường xu hướng (trendline) trên dữ liệu thực bằng Google Sheets, đọc và giải thích dự báo, so sánh với kết quả thực tế",
+      "phuong_phap": "Sheets thực hành → Vẽ trendline → Đọc dự báo → So sánh",
+      "san_pham": "Biểu đồ có đường xu hướng + Phân tích ngắn (cá nhân)",
+      "cong_cu": {
+        "gv": "Google Sheets dữ liệu + hướng dẫn trendline",
+        "hs": "Máy tính + Google Sheets"
+      },
+      "mien_ai": "Toán+C5",
+      "nang_luc_so": ["5.3.NC1a", "5.2.NC1b", "6.1.NC1b"]
+    },
+    {
+      "so_tiet": 17, "so_tuan": 9, "so_bai": 9, "giai_doan": "GD2",
+      "ten_bai": "Teachable Machine — Huấn luyện & Cải thiện",
+      "loai": "bai_hoc",
+      "noi_dung": "Teachable Machine (1): Giới thiệu giao diện, huấn luyện mô hình nhận dạng hình ảnh đầu tiên với 3 nhóm ảnh tự chụp bằng webcam (≥30 ảnh/nhóm)",
+      "phuong_phap": "Demo GV 10 phút → Lab máy tính cá nhân → Chia sẻ kết quả",
+      "san_pham": "Mô hình AI đầu tiên hoạt động được (cá nhân)",
+      "cong_cu": {
+        "gv": "teachablemachine.withgoogle.com, máy chiếu",
+        "hs": "Máy tính có webcam + Chrome + internet"
+      },
+      "mien_ai": "C5+D1",
+      "nang_luc_so": ["6.2.NC1a", "6.2.NC1b", "5.2.NC1b"]
+    },
+    {
+      "so_tiet": 18, "so_tuan": 9, "so_bai": 9, "giai_doan": "GD2",
+      "ten_bai": "Teachable Machine — Huấn luyện & Cải thiện",
+      "loai": "bai_hoc",
+      "noi_dung": "Teachable Machine (2) — Cải thiện: Thêm dữ liệu đa dạng góc chụp/ánh sáng, so sánh độ chính xác trước/sau, ghi chép phân tích cải tiến",
+      "phuong_phap": "Lab tự chủ → Ghi chép → So sánh trước/sau theo bảng",
+      "san_pham": "Mô hình v2 + Bảng so sánh cải tiến (cá nhân)",
+      "cong_cu": {
+        "gv": "Template bảng so sánh Google Sheets",
+        "hs": "Máy tính có webcam + Chrome + internet"
+      },
+      "mien_ai": "C5+D1",
+      "nang_luc_so": ["6.2.NC1b", "6.3.NC1a", "6.3.NC1b", "5.4.NC1a"]
+    },
+    {
+      "so_tiet": 19, "so_tuan": 10, "so_bai": 10, "giai_doan": "GD2",
+      "ten_bai": "AI ứng dụng thực tế & Ôn tập",
+      "loai": "bai_hoc",
+      "noi_dung": "AI trong thực tế: Nhóm nghiên cứu 1 lĩnh vực (giáo dục/y tế/môi trường/nông nghiệp), làm infographic 3 ứng dụng AI tiêu biểu",
+      "phuong_phap": "Nghiên cứu nhóm (tài liệu cho sẵn) → Canva → Trình bày 2 phút/nhóm",
+      "san_pham": "Infographic ứng dụng AI 1 lĩnh vực (nhóm)",
+      "cong_cu": {
+        "gv": "Tài liệu đọc theo lĩnh vực (PDF/link)",
+        "hs": "Máy tính + Canva hoặc PowerPoint"
+      },
+      "mien_ai": "A2",
+      "nang_luc_so": ["6.1.NC1a", "6.1.NC1b", "1.1.NC1b"]
+    },
+    {
+      "so_tiet": 20, "so_tuan": 10, "so_bai": 10, "giai_doan": "GD2",
+      "ten_bai": "AI ứng dụng thực tế & Ôn tập",
+      "loai": "bai_hoc",
+      "noi_dung": "Tổng kết GĐ1+GĐ2: Trò chơi \"AI Quiz Battle\" ôn tập toàn bộ kiến thức, hướng dẫn cấu trúc bài kiểm tra thực hành tuần sau",
+      "phuong_phap": "Quiz game Kahoot/Quizizz nhóm 4 → Review đáp án → Định hướng KT",
+      "san_pham": "Phiếu ôn tập cá nhân + Hướng dẫn KT",
+      "cong_cu": {
+        "gv": "Kahoot/Quizizz chuẩn bị sẵn, máy chiếu",
+        "hs": "Điện thoại hoặc máy tính"
+      },
+      "mien_ai": "Ôn tập",
+      "nang_luc_so": ["5.4.NC1a", "5.4.NC1c"]
+    },
+    {
+      "so_tiet": 21, "so_tuan": 11, "so_bai": null, "giai_doan": "KT1",
+      "ten_bai": "Kiểm tra Định kỳ 1",
+      "loai": "kiem_tra",
+      "noi_dung": "Lý thuyết (45 phút): 15 câu trắc nghiệm (AI hẹp/tổng quát, loại dữ liệu, bias, an toàn số) = 7.5đ + 1 tình huống phân tích dataset có lỗi = 2.5đ",
+      "phuong_phap": "Làm bài cá nhân — nhận diện tình huống, không học thuộc định nghĩa",
+      "san_pham": "Bài kiểm tra lý thuyết",
+      "cong_cu": {
+        "gv": "Đề kiểm tra in sẵn",
+        "hs": "Bút — không dùng máy tính"
+      },
+      "mien_ai": "KT",
+      "nang_luc_so": ["6.1.NC1a", "6.1.NC1b", "4.1.NC1b"]
+    },
+    {
+      "so_tiet": 22, "so_tuan": 11, "so_bai": null, "giai_doan": "KT1",
+      "ten_bai": "Kiểm tra Định kỳ 1",
+      "loai": "kiem_tra",
+      "noi_dung": "Thực hành Teachable Machine (45 phút): GV cấp 60–80 ảnh 3 nhóm (rác tái chế/hữu cơ/nguy hại) → HS huấn luyện, kiểm thử 5 ảnh mới (6đ) + Phiếu nhận xét: đúng bao nhiêu? Tại sao sai? Cải thiện thế nào? (4đ)",
+      "phuong_phap": "Thực hành cá nhân có hướng dẫn từng bước — không trừ điểm mô hình kém, thưởng điểm phân tích lỗi tốt",
+      "san_pham": "Mô hình AI hoạt động được + Phiếu nhận xét (sản phẩm thật!)",
+      "cong_cu": {
+        "gv": "Bộ ảnh 3 nhóm trên Drive, phiếu nhận xét in sẵn",
+        "hs": "Máy tính có webcam + Chrome + internet"
+      },
+      "mien_ai": "KT",
+      "nang_luc_so": ["6.2.NC1a", "6.3.NC1a", "6.3.NC1b"]
+    },
+    {
+      "so_tiet": 23, "so_tuan": 12, "so_bai": 11, "giai_doan": "GD3",
+      "ten_bai": "Design Thinking & Hình thành dự án",
+      "loai": "bai_hoc",
+      "noi_dung": "Design Thinking & Xác định vấn đề: Workshop Empathy Map — nhóm 3–4 người xác định 1 vấn đề thực tế quanh trường/nhà có thể giải quyết bằng AI nhận dạng hình ảnh",
+      "phuong_phap": "Workshop nhóm có template → Brainstorm → Pitch 1 phút/nhóm",
+      "san_pham": "Empathy Map (nhóm) + Đề xuất dự án sơ bộ",
+      "cong_cu": {
+        "gv": "Template Empathy Map in sẵn, máy chiếu",
+        "hs": "Bút dạ, giấy nhớ, phiếu template"
+      },
+      "mien_ai": "D1",
+      "nang_luc_so": ["5.2.NC1a", "5.3.NC1a", "5.3.NC1b"]
+    },
+    {
+      "so_tiet": 24, "so_tuan": 12, "so_bai": 11, "giai_doan": "GD3",
+      "ten_bai": "Design Thinking & Hình thành dự án",
+      "loai": "bai_hoc",
+      "noi_dung": "Lựa chọn chủ đề & Lập kế hoạch nhóm: Phân công vai trò (Trưởng nhóm/Thu thập/Huấn luyện/Thiết kế trình bày), xác định nguồn dữ liệu, lập timeline nội bộ",
+      "phuong_phap": "Làm việc nhóm với template kế hoạch → GV phản hồi trực tiếp từng nhóm",
+      "san_pham": "Kế hoạch nhóm chính thức (phân công + timeline)",
+      "cong_cu": {
+        "gv": "Template kế hoạch nhóm (Google Docs hoặc in)",
+        "hs": "Máy tính hoặc phiếu in"
+      },
+      "mien_ai": "D1",
+      "nang_luc_so": ["2.4.NC1a", "5.2.NC1a", "5.2.NC1b"]
+    },
+    {
+      "so_tiet": 25, "so_tuan": 13, "so_bai": 12, "giai_doan": "GD3",
+      "ten_bai": "Thu thập & Làm sạch dữ liệu",
+      "loai": "bai_hoc",
+      "noi_dung": "Thu thập dữ liệu: Hướng dẫn quy trình chuẩn (đủ số lượng, đa dạng góc độ/ánh sáng), nhóm bắt đầu thu thập dữ liệu thực cho dự án (≥50 mẫu/nhóm)",
+      "phuong_phap": "Hướng dẫn GV 15 phút → Thu thập thực tế trong trường → Kiểm tra nhanh",
+      "san_pham": "Bộ dữ liệu thô ban đầu ≥50 mẫu (nhóm)",
+      "cong_cu": {
+        "gv": "Checklist thu thập dữ liệu in sẵn",
+        "hs": "Điện thoại (chụp ảnh) + Google Drive để lưu"
+      },
+      "mien_ai": "D1",
+      "nang_luc_so": ["1.1.NC1b", "1.3.NC1a", "5.2.NC1b"]
+    },
+    {
+      "so_tiet": 26, "so_tuan": 13, "so_bai": 12, "giai_doan": "GD3",
+      "ten_bai": "Thu thập & Làm sạch dữ liệu",
+      "loai": "bai_hoc",
+      "noi_dung": "Làm sạch & kiểm tra chất lượng dữ liệu: Phát hiện ảnh mờ/sai nhãn/thiếu đa dạng, xóa lỗi, ghi chú chất lượng, kiểm tra chéo giữa 2 nhóm",
+      "phuong_phap": "Thực hành Google Sheets → Kiểm tra chéo nhóm → Báo cáo chất lượng",
+      "san_pham": "Dữ liệu sạch + Bảng kiểm tra chất lượng (nhóm)",
+      "cong_cu": {
+        "gv": "Template bảng kiểm tra chất lượng Sheets",
+        "hs": "Máy tính + Google Drive + Google Sheets"
+      },
+      "mien_ai": "D1",
+      "nang_luc_so": ["1.3.NC1a", "1.3.NC1b", "1.2.NC1a"]
+    },
+    {
+      "so_tiet": 27, "so_tuan": 14, "so_bai": 13, "giai_doan": "GD3",
+      "ten_bai": "Huấn luyện mô hình lần 1 & Đánh giá",
+      "loai": "bai_hoc",
+      "noi_dung": "Huấn luyện mô hình v1: GV hỗ trợ trực tiếp từng nhóm, nhóm ghi chép kết quả ban đầu (độ chính xác, nhóm ảnh nào hay bị nhầm)",
+      "phuong_phap": "Lab có hỗ trợ GV → Chia sẻ nhanh kết quả giữa các nhóm",
+      "san_pham": "Mô hình v1 + Bảng ghi chép kết quả (nhóm)",
+      "cong_cu": {
+        "gv": "teachablemachine.withgoogle.com, máy chiếu",
+        "hs": "Máy tính có webcam + Chrome + internet + ảnh trên Drive"
+      },
+      "mien_ai": "D1",
+      "nang_luc_so": ["6.2.NC1a", "6.2.NC1b", "5.1.NC1a"]
+    },
+    {
+      "so_tiet": 28, "so_tuan": 14, "so_bai": 13, "giai_doan": "GD3",
+      "ten_bai": "Huấn luyện mô hình lần 1 & Đánh giá",
+      "loai": "bai_hoc",
+      "noi_dung": "Đánh giá mô hình v1: Kiểm thử có hệ thống với 15 ảnh mới, phân tích lỗi: mô hình nhầm ở đâu? Tại sao? Cần thêm loại dữ liệu nào?",
+      "phuong_phap": "Kiểm thử có bảng theo dõi → Thảo luận nhóm → Danh sách cần cải thiện",
+      "san_pham": "Báo cáo đánh giá v1 + Danh sách cải thiện (nhóm)",
+      "cong_cu": {
+        "gv": "Template bảng đánh giá mô hình",
+        "hs": "Máy tính + 15 ảnh kiểm thử mới"
+      },
+      "mien_ai": "D1",
+      "nang_luc_so": ["6.3.NC1a", "6.3.NC1b", "5.1.NC1b"]
+    },
+    {
+      "so_tiet": 29, "so_tuan": 15, "so_bai": 14, "giai_doan": "GD3",
+      "ten_bai": "Cải thiện mô hình & Khảo sát người dùng",
+      "loai": "bai_hoc",
+      "noi_dung": "Cải thiện mô hình: Thu thêm dữ liệu đa dạng theo danh sách tuần trước, điều chỉnh nhãn, huấn luyện lại → mô hình v2 phải tốt hơn v1",
+      "phuong_phap": "Lab tự chủ nhóm → GV quan sát và gợi ý → So sánh v1 vs v2",
+      "san_pham": "Mô hình v2 cải tiến + Bảng so sánh v1/v2 (nhóm)",
+      "cong_cu": {
+        "gv": "teachablemachine.withgoogle.com",
+        "hs": "Máy tính có webcam + Chrome + ảnh bổ sung trên Drive"
+      },
+      "mien_ai": "D1",
+      "nang_luc_so": ["6.2.NC1b", "6.3.NC1a", "5.3.NC1a"]
+    },
+    {
+      "so_tiet": 30, "so_tuan": 15, "so_bai": 14, "giai_doan": "GD3",
+      "ten_bai": "Cải thiện mô hình & Khảo sát người dùng",
+      "loai": "bai_hoc",
+      "noi_dung": "Khảo sát người dùng: Mời 3–5 bạn ngoài nhóm thử sản phẩm, thu phản hồi qua Google Form, phân tích và ghi chú cải tiến tiếp theo",
+      "phuong_phap": "Khảo sát thực tế trong trường → Phân tích phản hồi → Ghi chú cải tiến",
+      "san_pham": "Phiếu phản hồi người dùng + Kết quả kiểm thử v2 (nhóm)",
+      "cong_cu": {
+        "gv": "Hướng dẫn tạo Google Form",
+        "hs": "Điện thoại/máy tính + Google Form"
+      },
+      "mien_ai": "D1",
+      "nang_luc_so": ["5.3.NC1b", "2.1.NC1a", "1.2.NC1b"]
+    },
+    {
+      "so_tiet": 31, "so_tuan": 16, "so_bai": 15, "giai_doan": "GD3",
+      "ten_bai": "Hoàn thiện sản phẩm & Tài liệu",
+      "loai": "bai_hoc",
+      "noi_dung": "Hoàn thiện sản phẩm + Poster: Thiết kế poster/giao diện giới thiệu theo template (Vấn đề → Giải pháp → Cách hoạt động → Kết quả → Bài học)",
+      "phuong_phap": "Dự án nhóm → Thiết kế Canva/PowerPoint với template",
+      "san_pham": "Sản phẩm AI hoàn chỉnh + Poster A2 (nhóm)",
+      "cong_cu": {
+        "gv": "Template poster Canva chia sẻ (link), máy in poster",
+        "hs": "Máy tính + Canva hoặc PowerPoint"
+      },
+      "mien_ai": "D1",
+      "nang_luc_so": ["3.1.NC1a", "3.1.NC1b", "5.3.NC1a"]
+    },
+    {
+      "so_tiet": 32, "so_tuan": 16, "so_bai": 15, "giai_doan": "GD3",
+      "ten_bai": "Hoàn thiện sản phẩm & Tài liệu",
+      "loai": "bai_hoc",
+      "noi_dung": "Viết báo cáo + Thiết kế slide: Template 8 slide (Vấn đề→Dữ liệu→Mô hình→Kết quả→Thử nghiệm→Bài học→Cải tiến→Cảm ơn)",
+      "phuong_phap": "Viết nhóm có template → GV phản hồi bản thảo từng nhóm",
+      "san_pham": "Báo cáo dự án bản thảo + Slide 8 trang (nhóm)",
+      "cong_cu": {
+        "gv": "Template slide 8 trang (Google Slides/PowerPoint)",
+        "hs": "Máy tính + Google Slides hoặc PowerPoint"
+      },
+      "mien_ai": "D1",
+      "nang_luc_so": ["3.1.NC1a", "3.2.NC1a", "2.2.NC1a"]
+    },
+    {
+      "so_tiet": 33, "so_tuan": 17, "so_bai": 16, "giai_doan": "GD3",
+      "ten_bai": "Luyện thuyết trình & Chuẩn bị Demo Day",
+      "loai": "bai_hoc",
+      "noi_dung": "Peer Review: Mỗi nhóm trình bày thử 5 phút, 2 nhóm khác nhận xét theo rubric (Vấn đề rõ? Dữ liệu đủ? Mô hình chạy? Trình bày mạch lạc?)",
+      "phuong_phap": "Trình bày thử toàn lớp → Đánh giá chéo theo rubric → GV tổng hợp",
+      "san_pham": "Phiếu Peer Review — mỗi nhóm nhận 2 phiếu góp ý",
+      "cong_cu": {
+        "gv": "Rubric chấm Peer Review in sẵn, máy chiếu",
+        "hs": "Slide trình bày + máy tính"
+      },
+      "mien_ai": "A3",
+      "nang_luc_so": ["2.4.NC1a", "1.2.NC1a", "5.4.NC1b"]
+    },
+    {
+      "so_tiet": 34, "so_tuan": 17, "so_bai": 16, "giai_doan": "GD3",
+      "ten_bai": "Luyện thuyết trình & Chuẩn bị Demo Day",
+      "loai": "bai_hoc",
+      "noi_dung": "Chuẩn bị Demo Day: Điều chỉnh cuối theo góp ý Peer Review, phân công vị trí trưng bày, viết kịch bản thuyết minh, rehearsal lần cuối",
+      "phuong_phap": "Chỉnh sửa nhóm → Rehearsal → GV kiểm tra checklist",
+      "san_pham": "Sản phẩm + Slide + Poster phiên bản cuối (nhóm)",
+      "cong_cu": {
+        "gv": "Checklist chuẩn bị Demo Day in sẵn",
+        "hs": "Máy tính + sản phẩm hoàn chỉnh"
+      },
+      "mien_ai": "A3",
+      "nang_luc_so": ["5.3.NC1a", "3.1.NC1b", "2.4.NC1a"]
+    },
+    {
+      "so_tiet": 35, "so_tuan": 18, "so_bai": 17, "giai_doan": "GD3",
+      "ten_bai": "Demo Day & Bảo vệ dự án",
+      "loai": "bai_hoc",
+      "noi_dung": "Demo Day — Triển lãm mở: Tất cả nhóm trưng bày đồng thời gallery format, HS khác tham quan tự do, nhóm thuyết minh liên tục, khách mời (GV bộ môn/BGH) tham quan",
+      "phuong_phap": "Triển lãm gallery format — HS là chủ nhà, thuyết minh không cần slide",
+      "san_pham": "Trình diễn sản phẩm AI thực tế + Phiếu bình chọn khách",
+      "cong_cu": {
+        "gv": "Phiếu bình chọn in sẵn, bảng trưng bày, kéo dài điện/wifi",
+        "hs": "Máy tính có webcam + sản phẩm + poster in A2"
+      },
+      "mien_ai": "A3",
+      "nang_luc_so": ["3.1.NC1b", "2.1.NC1a", "2.2.NC1a", "5.3.NC1b"]
+    },
+    {
+      "so_tiet": 36, "so_tuan": 18, "so_bai": 17, "giai_doan": "GD3",
+      "ten_bai": "Demo Day & Bảo vệ dự án",
+      "loai": "bai_hoc",
+      "noi_dung": "Bảo vệ dự án + Reflection: Q&A với GV (3–5 phút/nhóm), chấm điểm theo rubric, mỗi cá nhân viết reflection \"Điều tôi tự hào nhất\" và \"Nếu làm lại tôi sẽ...\"",
+      "phuong_phap": "Q&A hội đồng → Chấm điểm → Viết reflection cá nhân",
+      "san_pham": "Điểm đánh giá nhóm + Bài reflection cá nhân",
+      "cong_cu": {
+        "gv": "Rubric chấm bảo vệ in sẵn",
+        "hs": "Phiếu reflection, bút"
+      },
+      "mien_ai": "A3",
+      "nang_luc_so": ["6.3.NC1a", "6.3.NC1b", "5.4.NC1a", "5.4.NC1b"]
+    },
+    {
+      "so_tiet": 37, "so_tuan": 19, "so_bai": 18, "giai_doan": "GD4",
+      "ten_bai": "Nghề nghiệp AI & Đạo đức AI",
+      "loai": "bai_hoc",
+      "noi_dung": "Nghề nghiệp tương lai & kỹ năng AI: Tọa đàm ngắn, HS vẽ \"Bản đồ nghề nghiệp cá nhân\": nghề tôi thích → AI tác động thế nào → tôi cần học thêm gì",
+      "phuong_phap": "Tọa đàm GV dẫn dắt → Workshop cá nhân → Chia sẻ cặp đôi",
+      "san_pham": "Bản đồ nghề nghiệp cá nhân",
+      "cong_cu": {
+        "gv": "Slide minh họa nghề + AI, máy chiếu",
+        "hs": "Phiếu bản đồ nghề in sẵn, bút màu"
+      },
+      "mien_ai": "A3",
+      "nang_luc_so": ["6.1.NC1a", "5.4.NC1c", "5.2.NC1a"]
+    },
+    {
+      "so_tiet": 38, "so_tuan": 19, "so_bai": 18, "giai_doan": "GD4",
+      "ten_bai": "Nghề nghiệp AI & Đạo đức AI",
+      "loai": "bai_hoc",
+      "noi_dung": "AI có trách nhiệm & Công dân số: Thảo luận 3 tình huống đạo đức AI (AI viết bài thay HS, AI theo dõi vị trí, AI tạo ảnh giả), xây dựng \"Hiến chương AI lớp học\"",
+      "phuong_phap": "Thảo luận tình huống nhóm → Bỏ phiếu đồng thuận → Viết Hiến chương",
+      "san_pham": "Hiến chương AI lớp học (cả lớp ký tên)",
+      "cong_cu": {
+        "gv": "Phiếu tình huống in sẵn, giấy Hiến chương khổ lớn",
+        "hs": "Bút ký"
+      },
+      "mien_ai": "B2",
+      "nang_luc_so": ["6.2.NC1c", "4.2.NC1a", "2.5.NC1a", "2.5.NC1b"]
+    },
+    {
+      "so_tiet": 39, "so_tuan": 20, "so_bai": 19, "giai_doan": "GD4",
+      "ten_bai": "Portfolio AI & Tổng kết hành trình",
+      "loai": "bai_hoc",
+      "noi_dung": "Xây dựng Portfolio AI lớp 10: Hướng dẫn cấu trúc 6 mục (Giới thiệu/Sản phẩm GĐ1/Sản phẩm GĐ2/Dự án GĐ3/Reflection/Kế hoạch lớp 11), HS tổng hợp và hoàn thiện",
+      "phuong_phap": "Hướng dẫn có template → Thực hành cá nhân → GV kiểm tra",
+      "san_pham": "Portfolio lớp 10 bản nháp hoàn chỉnh (cá nhân)",
+      "cong_cu": {
+        "gv": "Template Portfolio (Google Slides hoặc file Word)",
+        "hs": "Máy tính + Google Drive (tất cả sản phẩm cả năm)"
+      },
+      "mien_ai": "A3",
+      "nang_luc_so": ["5.4.NC1a", "5.4.NC1b", "3.1.NC1a"]
+    },
+    {
+      "so_tiet": 40, "so_tuan": 20, "so_bai": 19, "giai_doan": "GD4",
+      "ten_bai": "Portfolio AI & Tổng kết hành trình",
+      "loai": "bai_hoc",
+      "noi_dung": "Tổng kết hành trình: Chia sẻ vòng tròn \"Điều tôi học được — Điều tôi bất ngờ nhất — Điều tôi muốn làm tiếp\", viết thư gửi bản thân lớp 11",
+      "phuong_phap": "Chia sẻ vòng tròn → Viết thư → GV niêm phong giao đầu lớp 11",
+      "san_pham": "Nhật ký học tập + Thư gửi bản thân lớp 11 (cá nhân)",
+      "cong_cu": {
+        "gv": "Phong bì thư, nhạc nền nhẹ",
+        "hs": "Phiếu viết thư, bút"
+      },
+      "mien_ai": "A3",
+      "nang_luc_so": ["5.4.NC1a", "5.4.NC1c", "2.1.NC1a"]
+    },
+    {
+      "so_tiet": 41, "so_tuan": 21, "so_bai": null, "giai_doan": "KT2",
+      "ten_bai": "Kiểm tra Định kỳ 2",
+      "loai": "kiem_tra",
+      "noi_dung": "Báo cáo dự án (45 phút): Mỗi nhóm thuyết trình 5 phút + Q&A 3 phút trước hội đồng. Rubric: Vấn đề rõ (2đ) / Dữ liệu đủ tốt (2đ) / Mô hình hoạt động (3đ) / Trình bày mạch lạc (3đ)",
+      "phuong_phap": "Thuyết trình nhóm có hội đồng — HS chủ động thuyết minh, không đọc slide",
+      "san_pham": "Báo cáo dự án hoàn chỉnh + Điểm nhóm",
+      "cong_cu": {
+        "gv": "Rubric chấm in sẵn, máy chiếu",
+        "hs": "Máy tính + slide + sản phẩm AI"
+      },
+      "mien_ai": "KT",
+      "nang_luc_so": ["6.2.NC1a", "6.3.NC1a", "3.1.NC1b"]
+    },
+    {
+      "so_tiet": 42, "so_tuan": 21, "so_bai": null, "giai_doan": "KT2",
+      "ten_bai": "Kiểm tra Định kỳ 2",
+      "loai": "kiem_tra",
+      "noi_dung": "Triển lãm & Đánh giá Portfolio (45 phút): Gallery walk tổng kết, bình chọn \"Dự án ấn tượng\" + \"Cải tiến nhiều nhất\", GV đánh giá Portfolio cá nhân (đủ sản phẩm + reflection = 10đ), trao giấy chứng nhận",
+      "phuong_phap": "Triển lãm mở → Bình chọn → Đánh giá Portfolio → Lễ trao chứng nhận",
+      "san_pham": "Portfolio lớp 10 hoàn chỉnh + Giấy chứng nhận (vật lưu niệm!)",
+      "cong_cu": {
+        "gv": "Giấy chứng nhận in sẵn, phiếu bình chọn, bảng trưng bày",
+        "hs": "Portfolio hoàn chỉnh + sản phẩm AI + poster"
+      },
+      "mien_ai": "KT",
+      "nang_luc_so": ["5.3.NC1a", "3.1.NC1a", "5.4.NC1a"]
+    }
+  ]
+}
