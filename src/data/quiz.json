@@ -1,0 +1,487 @@
+{
+  "GD1": [
+    {
+      "id": "g1q1",
+      "cau_hoi": "Theo John McCarthy (1956), AI được định nghĩa là gì?",
+      "lua_chon": [
+        "Công nghệ thay thế con người trong mọi công việc",
+        "Khoa học và kỹ thuật tạo ra các máy thông minh, đặc biệt là các chương trình máy tính thông minh",
+        "Khoa học tạo ra robot biết di chuyển tự động",
+        "Phần mềm có thể giải toán nhanh hơn con người"
+      ],
+      "dap_an": 1,
+      "giai_thich": "John McCarthy đưa ra định nghĩa này tại Hội nghị Dartmouth năm 1956 — sự kiện đánh dấu sự ra đời chính thức của ngành AI."
+    },
+    {
+      "id": "g1q2",
+      "cau_hoi": "Ứng dụng nào sau đây KHÔNG sử dụng AI?",
+      "lua_chon": [
+        "Google Maps gợi ý đường đi tránh kẹt xe",
+        "Máy tính bỏ túi tính 2 + 2 = 4",
+        "Spotify gợi ý bài hát dựa trên sở thích",
+        "YouTube đề xuất video tiếp theo"
+      ],
+      "dap_an": 1,
+      "giai_thich": "Máy tính bỏ túi chỉ thực thi công thức cố định, không học từ dữ liệu, không có tính 'thông minh' như các ứng dụng AI khác."
+    },
+    {
+      "id": "g1q3",
+      "cau_hoi": "Hội nghị nào đánh dấu sự ra đời chính thức của ngành AI?",
+      "lua_chon": [
+        "Hội nghị MIT năm 1960",
+        "Hội nghị Turing năm 1950",
+        "Hội nghị Dartmouth năm 1956",
+        "Hội nghị Stanford năm 1970"
+      ],
+      "dap_an": 2,
+      "giai_thich": "Hội nghị Dartmouth năm 1956 do John McCarthy tổ chức là nơi thuật ngữ 'Artificial Intelligence' được đặt ra và ngành AI ra đời chính thức."
+    },
+    {
+      "id": "g1q4",
+      "cau_hoi": "Hệ thống AI chỉ có thể chơi cờ vua mà không làm được gì khác là ví dụ của loại AI nào?",
+      "lua_chon": [
+        "AI tổng quát (AGI — Artificial General Intelligence)",
+        "Siêu AI (ASI — Artificial Super Intelligence)",
+        "AI sáng tạo",
+        "AI hẹp (Narrow AI)"
+      ],
+      "dap_an": 3,
+      "giai_thich": "AI hẹp (Narrow AI) chỉ giỏi một nhiệm vụ cụ thể. Tất cả AI đang tồn tại hiện nay đều là AI hẹp — kể cả AlphaGo hay ChatGPT."
+    },
+    {
+      "id": "g1q5",
+      "cau_hoi": "Deepfake là gì?",
+      "lua_chon": [
+        "Phần mềm diệt virus thế hệ mới dùng AI",
+        "Một loại mạng WiFi được mã hóa an toàn",
+        "Nội dung video/ảnh giả mạo được tạo ra bằng AI",
+        "Thuật toán mã hóa dữ liệu cá nhân"
+      ],
+      "dap_an": 2,
+      "giai_thich": "Deepfake dùng AI (đặc biệt là mạng GAN) để tạo ra video/ảnh giả mạo chân thực, thường ghép khuôn mặt người thật vào nội dung khác."
+    },
+    {
+      "id": "g1q6",
+      "cau_hoi": "Dấu hiệu nào KHÔNG phải dấu hiệu nhận biết Deepfake?",
+      "lua_chon": [
+        "Mắt không chớp tự nhiên hoặc chớp bất thường",
+        "Giọng nói rõ ràng, mạch lạc, không bị nhiễu",
+        "Ánh sáng trên mặt không khớp với nền xung quanh",
+        "Viền tóc hoặc tai bị mờ, không tự nhiên"
+      ],
+      "dap_an": 1,
+      "giai_thich": "Giọng rõ ràng không phải dấu hiệu của Deepfake. Các dấu hiệu thường thấy là: mắt bất thường, ánh sáng không khớp, viền khuôn mặt mờ hoặc biến dạng."
+    },
+    {
+      "id": "g1q7",
+      "cau_hoi": "Kết quả điểm kiểm tra của học sinh thuộc loại dữ liệu nào?",
+      "lua_chon": [
+        "Dữ liệu văn bản (text data)",
+        "Dữ liệu âm thanh (audio data)",
+        "Dữ liệu hình ảnh (image data)",
+        "Dữ liệu số (numerical data)"
+      ],
+      "dap_an": 3,
+      "giai_thich": "Điểm số là con số định lượng, thuộc loại dữ liệu số. 4 loại dữ liệu chính trong AI: văn bản, số, hình ảnh, âm thanh."
+    },
+    {
+      "id": "g1q8",
+      "cau_hoi": "Khi thu thập dữ liệu ảnh để huấn luyện mô hình AI, yếu tố nào QUAN TRỌNG NHẤT?",
+      "lua_chon": [
+        "Ảnh phải được chụp bằng điện thoại đắt tiền, độ phân giải cao",
+        "Dữ liệu phải đa dạng: nhiều góc độ, ánh sáng, bối cảnh khác nhau",
+        "Tất cả ảnh phải chụp cùng một người trong cùng điều kiện",
+        "Phải có ít nhất 10.000 ảnh mới đủ điều kiện"
+      ],
+      "dap_an": 1,
+      "giai_thich": "Sự đa dạng của dữ liệu quan trọng hơn số lượng. Mô hình AI chỉ nhận ra những gì nó đã 'thấy' trong quá trình huấn luyện."
+    },
+    {
+      "id": "g1q9",
+      "cau_hoi": "\"Bias\" (thiên kiến) trong AI xảy ra khi nào?",
+      "lua_chon": [
+        "Khi máy tính xử lý dữ liệu quá chậm",
+        "Khi dữ liệu hoặc thuật toán khiến AI cho kết quả không công bằng với một nhóm người",
+        "Khi mô hình AI bị virus tấn công",
+        "Khi lập trình viên mắc lỗi chính tả trong code"
+      ],
+      "dap_an": 1,
+      "giai_thich": "Bias trong AI thường bắt nguồn từ dữ liệu huấn luyện không đại diện đầy đủ hoặc từ cách thiết kế thuật toán. Ví dụ: AI nhận diện khuôn mặt hoạt động kém hơn với người da màu vì dữ liệu huấn luyện chủ yếu là người da trắng."
+    },
+    {
+      "id": "g1q10",
+      "cau_hoi": "Một mô hình AI tuyển dụng được huấn luyện chủ yếu bằng hồ sơ nam giới. Hậu quả gì có thể xảy ra?",
+      "lua_chon": [
+        "Mô hình tuyển được nhiều nhân viên tốt hơn vì dữ liệu phong phú",
+        "Mô hình chạy nhanh hơn do ít dữ liệu",
+        "Mô hình có thể phân biệt đối xử với ứng viên nữ mà không có lý do hợp lý",
+        "Mô hình không bị ảnh hưởng vì dữ liệu số là khách quan"
+      ],
+      "dap_an": 2,
+      "giai_thich": "Amazon từng xây dựng hệ thống tuyển dụng AI như vậy và phát hiện nó cho điểm thấp hơn với ứng viên nữ. Họ đã phải dừng dự án này."
+    },
+    {
+      "id": "g1q11",
+      "cau_hoi": "Khi dùng AI như ChatGPT, điều nào sau đây KHÔNG nên làm?",
+      "lua_chon": [
+        "Kiểm tra lại thông tin AI cung cấp từ nguồn khác",
+        "Nhập số CMND, mật khẩu, thông tin thẻ ngân hàng vào AI",
+        "Dùng AI để tóm tắt tài liệu dài",
+        "Đặt câu hỏi về bài tập khó để hiểu khái niệm"
+      ],
+      "dap_an": 1,
+      "giai_thich": "Thông tin cá nhân nhạy cảm KHÔNG bao giờ được nhập vào AI. Dữ liệu này có thể được lưu trữ và có nguy cơ bị lộ."
+    },
+    {
+      "id": "g1q12",
+      "cau_hoi": "Nguyên tắc \"rác vào, rác ra\" (garbage in, garbage out) trong AI có nghĩa là gì?",
+      "lua_chon": [
+        "Máy tính cần được vệ sinh thường xuyên để chạy AI tốt",
+        "AI không xử lý được dữ liệu có kích thước lớn",
+        "Dữ liệu huấn luyện kém chất lượng sẽ tạo ra mô hình AI kém chất lượng",
+        "AI cần phòng máy lạnh để hoạt động ổn định"
+      ],
+      "dap_an": 2,
+      "giai_thich": "Đây là nguyên tắc cốt lõi: chất lượng mô hình AI phụ thuộc trực tiếp vào chất lượng dữ liệu. Không có thuật toán nào bù đắp được dữ liệu xấu."
+    },
+    {
+      "id": "g1q13",
+      "cau_hoi": "Bộ lọc spam hoạt động dựa trên nguyên lý gì?",
+      "lua_chon": [
+        "Chặn tất cả email từ địa chỉ không quen biết",
+        "Có người kiểm tra từng email theo tay",
+        "Phân tích xác suất từ khóa đáng ngờ để xếp loại email",
+        "Đọc email và quyết định dựa trên cảm giác"
+      ],
+      "dap_an": 2,
+      "giai_thich": "Spam filter dùng xác suất Bayes: tính khả năng email là spam dựa trên tần suất xuất hiện của từ khóa nhất định trong email spam đã biết."
+    },
+    {
+      "id": "g1q14",
+      "cau_hoi": "Tính năng nào của điện thoại thông minh sử dụng AI?",
+      "lua_chon": [
+        "Chức năng tính toán của máy lịch",
+        "Chuông báo thức lúc 6 giờ sáng",
+        "Đèn pin",
+        "Mở khóa bằng khuôn mặt (Face ID)"
+      ],
+      "dap_an": 3,
+      "giai_thich": "Face ID dùng mô hình AI để nhận diện khuôn mặt — đây là ứng dụng Computer Vision điển hình của AI hẹp."
+    },
+    {
+      "id": "g1q15",
+      "cau_hoi": "Điều nào SAI khi nói về AI hiện nay?",
+      "lua_chon": [
+        "AI có thể phạm sai lầm",
+        "AI học từ dữ liệu do con người cung cấp",
+        "AI luôn hoàn toàn khách quan và không bao giờ có thiên kiến",
+        "AI cần dữ liệu để cải thiện theo thời gian"
+      ],
+      "dap_an": 2,
+      "giai_thich": "AI KHÔNG hoàn toàn khách quan. AI học từ dữ liệu do con người tạo ra, nên nó thừa hưởng cả các thiên kiến có trong dữ liệu đó."
+    },
+    {
+      "id": "g1q16",
+      "cau_hoi": "Ai chịu trách nhiệm khi hệ thống AI đưa ra quyết định sai gây hại?",
+      "lua_chon": [
+        "Máy tính, vì nó tự đưa ra quyết định",
+        "Không ai, vì AI quyết định độc lập",
+        "Con người thiết kế, triển khai và sử dụng hệ thống AI đó",
+        "Nhà sản xuất chip CPU của máy tính"
+      ],
+      "dap_an": 2,
+      "giai_thich": "AI là công cụ. Con người — lập trình viên, công ty, người dùng — chịu trách nhiệm về cách AI được xây dựng và sử dụng. Đây là nền tảng của đạo đức AI."
+    },
+    {
+      "id": "g1q17",
+      "cau_hoi": "Quyền riêng tư số (digital privacy) trong bối cảnh AI có nghĩa là gì?",
+      "lua_chon": [
+        "Tắt wifi khi không sử dụng AI",
+        "Chỉ dùng AI lúc không có người xung quanh",
+        "Không chia sẻ ảnh lên mạng xã hội",
+        "Quyền kiểm soát thông tin cá nhân và cách AI thu thập, sử dụng dữ liệu của bạn"
+      ],
+      "dap_an": 3,
+      "giai_thich": "Quyền riêng tư số bao gồm quyền biết AI đang thu thập gì về bạn, quyền từ chối chia sẻ, và quyền yêu cầu xóa dữ liệu."
+    },
+    {
+      "id": "g1q18",
+      "cau_hoi": "Một email chứa 3 từ khóa nghi ngờ. Nếu mỗi từ tăng xác suất spam, email này nên được xử lý thế nào?",
+      "lua_chon": [
+        "Luôn cho vào hộp thư chính vì có thể là email quan trọng",
+        "Xác suất tích lũy từ nhiều từ khóa giúp lọc vào thư rác chính xác hơn",
+        "Chặn địa chỉ gửi ngay lập tức",
+        "Không thể xử lý tự động, cần người kiểm tra"
+      ],
+      "dap_an": 1,
+      "giai_thich": "Bộ lọc Bayesian tính xác suất tổng hợp. Càng nhiều từ khóa nghi ngờ, xác suất spam càng cao, giúp phân loại chính xác hơn."
+    },
+    {
+      "id": "g1q19",
+      "cau_hoi": "Dữ liệu nào sau đây là ví dụ của dữ liệu âm thanh (audio data)?",
+      "lua_chon": [
+        "Bảng điểm học sinh xuất ra file Excel",
+        "Ảnh chụp màn hình bài kiểm tra",
+        "Đoạn ghi âm học sinh đọc bài",
+        "Địa chỉ email của phụ huynh"
+      ],
+      "dap_an": 2,
+      "giai_thich": "Dữ liệu âm thanh là sóng âm được số hóa. Ứng dụng: nhận diện giọng nói (Siri, Google Assistant), phân tích cảm xúc qua giọng nói."
+    },
+    {
+      "id": "g1q20",
+      "cau_hoi": "Tại sao việc xây dựng \"Bộ quy tắc AI cá nhân\" quan trọng với học sinh?",
+      "lua_chon": [
+        "Vì đó là bài tập bắt buộc trong chương trình",
+        "Để chứng minh mình đã học xong chương AI",
+        "Vì AI ngày càng phổ biến, mỗi người cần tự xác định ranh giới sử dụng có trách nhiệm",
+        "Để khỏi bị phạt khi dùng AI trong trường"
+      ],
+      "dap_an": 2,
+      "giai_thich": "Người dùng AI có trách nhiệm xác định ranh giới: khi nào nên dùng, không nên dùng, và dùng như thế nào để không vi phạm đạo đức và quyền riêng tư."
+    }
+  ],
+
+  "GD2": [
+    {
+      "id": "g2q1",
+      "cau_hoi": "Điểm khác biệt CỐT LÕI giữa lập trình truyền thống và Machine Learning là gì?",
+      "lua_chon": [
+        "ML dùng Python, lập trình truyền thống dùng C++",
+        "Lập trình truyền thống nhanh hơn ML",
+        "Lập trình TT: dữ liệu + quy tắc → kết quả; ML: dữ liệu + kết quả → tự học quy tắc",
+        "ML không cần lập trình viên, lập trình TT thì cần"
+      ],
+      "dap_an": 2,
+      "giai_thich": "Đây là sự đảo ngược cốt lõi: thay vì lập trình viên viết quy tắc, ML để máy tự tìm quy tắc từ dữ liệu và kết quả mong muốn."
+    },
+    {
+      "id": "g2q2",
+      "cau_hoi": "Thứ tự đúng của vòng lặp học máy (ML cycle) là gì?",
+      "lua_chon": [
+        "Test → Train → Improve",
+        "Data → Improve → Train",
+        "Improve → Test → Train",
+        "Train → Test → Improve"
+      ],
+      "dap_an": 3,
+      "giai_thich": "Train (huấn luyện) → Test (kiểm thử với dữ liệu mới) → Improve (cải thiện dựa trên kết quả kiểm thử) → lặp lại."
+    },
+    {
+      "id": "g2q3",
+      "cau_hoi": "Bài toán nào là ví dụ điển hình của Phân loại (Classification)?",
+      "lua_chon": [
+        "Dự báo nhiệt độ ngày mai sẽ là bao nhiêu độ",
+        "Ước tính giá nhà dựa trên diện tích và vị trí",
+        "Tính khoảng cách từ điểm A đến điểm B",
+        "Phân biệt email spam hay không spam"
+      ],
+      "dap_an": 3,
+      "giai_thich": "Classification phân loại dữ liệu vào các nhóm rời rạc (spam/không spam, mèo/chó, bệnh/không bệnh). Kết quả là nhãn (label), không phải số liên tục."
+    },
+    {
+      "id": "g2q4",
+      "cau_hoi": "Bài toán nào là ví dụ điển hình của Dự báo/Hồi quy (Regression)?",
+      "lua_chon": [
+        "Nhận diện ảnh là mèo hay chó",
+        "Phân loại bệnh nhân có ung thư hay không",
+        "Lọc email spam khỏi hộp thư",
+        "Dự báo điểm thi dựa trên số giờ học"
+      ],
+      "dap_an": 3,
+      "giai_thich": "Regression dự báo giá trị số liên tục (điểm số, giá nhà, nhiệt độ). Kết quả là con số, không phải nhóm/nhãn."
+    },
+    {
+      "id": "g2q5",
+      "cau_hoi": "Trung vị (median) của tập số liệu {3, 7, 7, 19, 24} là bao nhiêu?",
+      "lua_chon": [
+        "12",
+        "24",
+        "7",
+        "19"
+      ],
+      "dap_an": 2,
+      "giai_thich": "Sắp xếp tăng dần: 3, 7, 7, 19, 24. Trung vị là giá trị ở giữa (vị trí thứ 3 trong 5 phần tử) = 7. Khác với trung bình = (3+7+7+19+24)/5 = 12."
+    },
+    {
+      "id": "g2q6",
+      "cau_hoi": "Tại sao AI cần thống kê mô tả (trung bình, trung vị, độ lệch chuẩn)?",
+      "lua_chon": [
+        "Để vẽ biểu đồ đẹp hơn khi thuyết trình",
+        "Vì đó là yêu cầu bắt buộc trong bộ thư viện Python",
+        "Để hiểu phân bố dữ liệu, phát hiện bất thường và chuẩn bị dữ liệu trước khi huấn luyện",
+        "Để chứng minh mô hình AI hoạt động đúng"
+      ],
+      "dap_an": 2,
+      "giai_thich": "Thống kê giúp hiểu dữ liệu trước khi dùng: phát hiện outlier, kiểm tra phân bố, chuẩn hóa dữ liệu — tất cả đều ảnh hưởng trực tiếp đến chất lượng mô hình."
+    },
+    {
+      "id": "g2q7",
+      "cau_hoi": "Outlier (giá trị ngoại lệ) trong dataset là gì?",
+      "lua_chon": [
+        "Giá trị xuất hiện nhiều nhất trong tập dữ liệu (mode)",
+        "Điểm dữ liệu khác biệt đáng kể so với phần còn lại",
+        "Giá trị trung bình của tập dữ liệu",
+        "Dữ liệu bị thiếu (missing data)"
+      ],
+      "dap_an": 1,
+      "giai_thich": "Outlier là điểm dữ liệu nằm quá xa so với phần lớn dữ liệu. Ví dụ: điểm kiểm tra {7,8,7,9,8,7,6,100} — số 100 là outlier rõ ràng."
+    },
+    {
+      "id": "g2q8",
+      "cau_hoi": "Điểm kiểm tra lớp: {7, 8, 7, 9, 8, 7, 6, 100}. Outlier 100 ảnh hưởng thế nào đến trung bình?",
+      "lua_chon": [
+        "Không ảnh hưởng vì chỉ có 1 điểm trong 8 điểm",
+        "Kéo trung bình lên cao bất thường, không phản ánh đúng thực tế",
+        "Làm trung bình giảm xuống",
+        "Giúp trung bình chính xác hơn vì là điểm thực"
+      ],
+      "dap_an": 1,
+      "giai_thich": "Trung bình có 100 = (7+8+7+9+8+7+6+100)/8 = 18.75. Không có 100 = (7+8+7+9+8+7+6)/7 = 7.43. Outlier kéo lệch trung bình hoàn toàn. Đó là lý do trung vị đôi khi tốt hơn trung bình."
+    },
+    {
+      "id": "g2q9",
+      "cau_hoi": "Hồi quy tuyến tính (linear regression) cố gắng tìm gì?",
+      "lua_chon": [
+        "Giá trị lớn nhất và nhỏ nhất trong tập dữ liệu",
+        "Số lượng dữ liệu cần thu thập để đạt độ chính xác tốt",
+        "Đường thẳng phù hợp nhất với các điểm dữ liệu để có thể dự báo",
+        "Màu sắc phù hợp nhất để trực quan hóa dữ liệu"
+      ],
+      "dap_an": 2,
+      "giai_thich": "Linear regression tìm đường thẳng y = ax + b sao cho tổng khoảng cách từ các điểm dữ liệu đến đường thẳng là nhỏ nhất (least squares)."
+    },
+    {
+      "id": "g2q10",
+      "cau_hoi": "Khi kéo một điểm dữ liệu ra xa trên GeoGebra, đường hồi quy thay đổi thế nào?",
+      "lua_chon": [
+        "Không thay đổi, đường cố định sau khi được vẽ",
+        "Chỉ thay đổi màu sắc của đường",
+        "Điều chỉnh để vẫn phù hợp nhất với toàn bộ dữ liệu mới",
+        "Xóa điểm đó khỏi dataset tự động"
+      ],
+      "dap_an": 2,
+      "giai_thich": "Đường hồi quy động — nó luôn tìm vị trí tốt nhất cho toàn bộ dữ liệu. Khi thêm hoặc di chuyển điểm, đường tự điều chỉnh."
+    },
+    {
+      "id": "g2q11",
+      "cau_hoi": "Teachable Machine (Google) cho phép làm gì mà KHÔNG cần biết lập trình?",
+      "lua_chon": [
+        "Tạo trang web thương mại điện tử",
+        "Huấn luyện mô hình AI nhận diện hình ảnh/âm thanh qua giao diện trực quan",
+        "Viết bài luận tự động bằng AI",
+        "Dịch tài liệu sang 50 ngôn ngữ"
+      ],
+      "dap_an": 1,
+      "giai_thich": "Teachable Machine hạ thấp rào cản: học sinh tự chụp ảnh, nhãn dữ liệu và huấn luyện mô hình ngay trên trình duyệt, không cần code một dòng nào."
+    },
+    {
+      "id": "g2q12",
+      "cau_hoi": "Tại sao mỗi nhóm trong Teachable Machine cần ít nhất 30 ảnh?",
+      "lua_chon": [
+        "Vì giao diện chỉ cho nhập tối đa 30 ảnh mỗi nhóm",
+        "Vì đó là quy định bắt buộc của Google",
+        "Để trang web không bị chậm khi xử lý",
+        "Dữ liệu đủ nhiều và đa dạng giúp mô hình học đặc điểm thật sự, tránh học vẹt"
+      ],
+      "dap_an": 3,
+      "giai_thich": "Với ít ảnh, mô hình có thể \"memorize\" thay vì \"học\". Nhiều ảnh đa dạng giúp mô hình tổng quát hóa — nhận diện đúng cả ảnh chưa từng thấy."
+    },
+    {
+      "id": "g2q13",
+      "cau_hoi": "Sau khi huấn luyện mô hình v1 đạt 60%, cách nào cải thiện hiệu quả nhất?",
+      "lua_chon": [
+        "Huấn luyện lại đúng y hệt bộ dữ liệu cũ — lặp đi lặp lại",
+        "Giảm số nhóm phân loại từ 3 xuống còn 2",
+        "Phân tích nhóm hay bị nhầm, thu thêm dữ liệu đa dạng cho nhóm đó",
+        "Đổi tên các nhóm dữ liệu"
+      ],
+      "dap_an": 2,
+      "giai_thich": "Cần phân tích lỗi trước: nhóm nào hay bị nhầm? Tại sao? Thêm ảnh đa dạng góc độ/ánh sáng cho đúng nhóm đó, không phải thêm đại trà tất cả."
+    },
+    {
+      "id": "g2q14",
+      "cau_hoi": "Đường xu hướng (trendline) trên biểu đồ cho biết điều gì?",
+      "lua_chon": [
+        "Chỉ hiển thị điểm dữ liệu chính xác nhất",
+        "Ranh giới phân chia các nhóm dữ liệu",
+        "Xu hướng tổng thể của dữ liệu và dùng để dự báo giá trị mới",
+        "Giá trị trung bình của toàn bộ dataset"
+      ],
+      "dap_an": 2,
+      "giai_thich": "Trendline biểu diễn xu hướng chung. Kéo dài đường này ra ngoài vùng dữ liệu giúp dự báo — đó chính là ứng dụng của hồi quy tuyến tính."
+    },
+    {
+      "id": "g2q15",
+      "cau_hoi": "Mô hình nhận diện 3 loại rác đạt 60% độ chính xác. Bước tiếp theo hợp lý nhất?",
+      "lua_chon": [
+        "Chấp nhận 60% là đủ tốt, không cần cải thiện",
+        "Xóa mô hình và dùng phương pháp hoàn toàn khác",
+        "Tăng tất cả nhóm lên gấp 10 lần ảnh",
+        "Phân tích loại rác hay bị nhầm nhất, thu thêm dữ liệu đa dạng cho loại đó"
+      ],
+      "dap_an": 3,
+      "giai_thich": "Quy trình chuẩn: phân tích lỗi → xác định điểm yếu → cải thiện có mục tiêu. Không cải thiện đại trà, không từ bỏ — đây là tư duy kỹ sư AI."
+    },
+    {
+      "id": "g2q16",
+      "cau_hoi": "AI đang ứng dụng vào y tế như thế nào?",
+      "lua_chon": [
+        "Thay thế hoàn toàn bác sĩ trong phẫu thuật",
+        "Hỗ trợ chẩn đoán ung thư từ ảnh X-quang, dự báo nguy cơ bệnh, tìm kiếm thuốc mới",
+        "Chỉ dùng để quản lý hồ sơ bệnh nhân điện tử",
+        "Tự kê đơn thuốc cho bệnh nhân"
+      ],
+      "dap_an": 1,
+      "giai_thich": "AI y tế nổi bật: Google Health phát hiện ung thư vú từ X-quang chính xác hơn bác sĩ trong một số nghiên cứu; AlphaFold dự báo cấu trúc protein."
+    },
+    {
+      "id": "g2q17",
+      "cau_hoi": "AI có thể đóng góp vào bảo vệ môi trường bằng cách nào?",
+      "lua_chon": [
+        "Thay thế cây xanh trong đô thị bằng màn hình LED",
+        "Cắt giảm sản xuất thiết bị điện tử",
+        "Theo dõi phá rừng qua ảnh vệ tinh, dự báo thời tiết cực đoan, tối ưu hóa lưới điện",
+        "Yêu cầu mọi người giảm sử dụng internet"
+      ],
+      "dap_an": 2,
+      "giai_thich": "AI giúp: Global Forest Watch dùng AI theo dõi nạn phá rừng theo thời gian thực; DeepMind tối ưu việc làm mát các trung tâm dữ liệu Google, tiết kiệm 30% điện năng."
+    },
+    {
+      "id": "g2q18",
+      "cau_hoi": "Câu nào mô tả đúng nhất mối quan hệ giữa AI và Machine Learning?",
+      "lua_chon": [
+        "AI và ML là hai tên gọi khác nhau của cùng một thứ",
+        "ML là một nhánh của AI, tập trung vào việc máy tính tự học từ dữ liệu",
+        "AI là một phần nhỏ bên trong ML",
+        "ML ra đời trước AI và là nền tảng của AI"
+      ],
+      "dap_an": 1,
+      "giai_thich": "AI là lĩnh vực rộng hơn. ML là một cách tiếp cận trong AI. Bên trong ML còn có Deep Learning. Hình dung: AI ⊃ ML ⊃ Deep Learning."
+    },
+    {
+      "id": "g2q19",
+      "cau_hoi": "Độ lệch chuẩn (standard deviation) nhỏ cho biết điều gì về dữ liệu?",
+      "lua_chon": [
+        "Dữ liệu có nhiều outlier",
+        "Dữ liệu phân tán rộng, các giá trị rất khác nhau",
+        "Dữ liệu tập trung gần nhau, ít biến động",
+        "Không đủ dữ liệu để phân tích"
+      ],
+      "dap_an": 2,
+      "giai_thich": "Độ lệch chuẩn nhỏ = dữ liệu tập trung quanh trung bình. Ví dụ: điểm thi {8,8,9,7,8} có độ lệch chuẩn nhỏ hơn {2,8,10,1,9}."
+    },
+    {
+      "id": "g2q20",
+      "cau_hoi": "Điều gì QUAN TRỌNG HƠN khi đánh giá một mô hình AI?",
+      "lua_chon": [
+        "Tên thương hiệu của công cụ AI được sử dụng",
+        "Thời gian huấn luyện nhanh hay chậm",
+        "Chỉ nhìn vào độ chính xác tổng thể (accuracy)",
+        "Hiểu được loại lỗi nào mô hình hay mắc, tại sao, và ảnh hưởng thực tế là gì"
+      ],
+      "dap_an": 3,
+      "giai_thich": "Một mô hình 95% accuracy có thể vô dụng nếu 5% lỗi đó là nguy hiểm (AI y tế bỏ sót ung thư). Phân tích lỗi (error analysis) quan trọng hơn con số accuracy."
+    }
+  ]
+}
