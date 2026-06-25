@@ -1,0 +1,155 @@
+[
+  {
+    "id": "tiet-1-2",
+    "ten": "Trí tuệ nhân tạo là gì? Lịch sử AI",
+    "tiet": "1–2", "tiet_tu": 1, "tiet_den": 2,
+    "giai_doan": "GD1",
+    "mo_ta": "Định nghĩa AI, 10 ứng dụng thực tế, timeline lịch sử từ 1950 đến nay. Phiếu học tập + hoạt động vẽ timeline nhóm.",
+    "loai": "bai_hoc",
+    "file": "TaiLieu_AI_Tiet1_2_Lop10.docx"
+  },
+  {
+    "id": "tiet-3-4",
+    "ten": "AI hẹp, AI tổng quát & Deepfake",
+    "tiet": "3–4", "tiet_tu": 3, "tiet_den": 4,
+    "giai_doan": "GD1",
+    "mo_ta": "Phân biệt AI hẹp / AI tổng quát. Deepfake: nhận diện nội dung giả mạo. Thẻ bài phân loại + checklist Deepfake.",
+    "loai": "bai_hoc",
+    "file": "TaiLieu_AI_Tiet3_4_Lop10.docx"
+  },
+  {
+    "id": "tiet-5-6",
+    "ten": "Dữ liệu trong AI",
+    "tiet": "5–6", "tiet_tu": 5, "tiet_den": 6,
+    "giai_doan": "GD1",
+    "mo_ta": "4 loại dữ liệu (văn bản, số, ảnh, âm thanh). Thực hành phân loại trên máy + thu thập dữ liệu thực tế quanh trường.",
+    "loai": "bai_hoc",
+    "file": "TaiLieu_AI_Tiet5_6_Lop10.docx"
+  },
+  {
+    "id": "tiet-7-8",
+    "ten": "Thiên kiến & An toàn số",
+    "tiet": "7–8", "tiet_tu": 7, "tiet_den": 8,
+    "giai_doan": "GD1",
+    "mo_ta": "Bias trong AI qua 2 case study thực tế. Workshop \"Bộ quy tắc AI cá nhân\": 5 điều cam kết khi dùng AI.",
+    "loai": "bai_hoc",
+    "file": "TaiLieu_AI_Tiet7_8_Lop10.docx"
+  },
+  {
+    "id": "tiet-9-10",
+    "ten": "[Toán CN1] Xác suất & Spam Filter",
+    "tiet": "9–10", "tiet_tu": 9, "tiet_den": 10,
+    "giai_doan": "GD1",
+    "mo_ta": "Xác suất cơ bản → hiểu bộ lọc thư rác. Mô phỏng Spam Filter bằng Google Sheets: điều chỉnh ngưỡng lọc và quan sát kết quả.",
+    "loai": "toan_cn",
+    "file": "TaiLieu_ToanCN1_Tiet9_10_Lop10.docx"
+  },
+  {
+    "id": "tiet-11-12",
+    "ten": "Machine Learning & Phân loại/Dự báo",
+    "tiet": "11–12", "tiet_tu": 11, "tiet_den": 12,
+    "giai_doan": "GD2",
+    "mo_ta": "Lập trình truyền thống vs. ML. Vòng lặp Train→Test→Improve bằng hoạt động tay. Thực hành dự báo điểm thi từ giờ học trên Google Sheets.",
+    "loai": "bai_hoc",
+    "file": "TaiLieu_ML_Tiet11_12_Lop10.docx"
+  },
+  {
+    "id": "tiet-13-14",
+    "ten": "[Toán CN2] Thống kê & Outlier",
+    "tiet": "13–14", "tiet_tu": 13, "tiet_den": 14,
+    "giai_doan": "GD2",
+    "mo_ta": "Thống kê mô tả: trung bình, trung vị, độ lệch chuẩn. Phát hiện Outlier bằng quy tắc 1.5×IQR và box plot trực quan.",
+    "loai": "toan_cn",
+    "file": "TaiLieu_ToanCN2_Tiet13_14_Lop10.docx"
+  },
+  {
+    "id": "tiet-15-16",
+    "ten": "[Toán CN3] Hồi quy tuyến tính trực quan",
+    "tiet": "15–16", "tiet_tu": 15, "tiet_den": 16,
+    "giai_doan": "GD2",
+    "mo_ta": "Ý tưởng hồi quy qua GeoGebra — kéo điểm thấy đường thay đổi. Vẽ trendline thực tế trên Google Sheets, đọc và giải thích dự báo.",
+    "loai": "toan_cn",
+    "file": "TaiLieu_ToanCN3_Tiet15_16_Lop10.docx"
+  },
+  {
+    "id": "tiet-17-18",
+    "ten": "Teachable Machine — Huấn luyện & Cải thiện",
+    "tiet": "17–18", "tiet_tu": 17, "tiet_den": 18,
+    "giai_doan": "GD2",
+    "mo_ta": "Huấn luyện mô hình AI nhận diện hình ảnh đầu tiên với webcam (≥30 ảnh/nhóm). So sánh v1 vs v2 sau khi thêm dữ liệu đa dạng.",
+    "loai": "bai_hoc",
+    "file": "TaiLieu_TeachableMachine_Tiet17_18_Lop10.docx"
+  },
+  {
+    "id": "tiet-19-20",
+    "ten": "AI ứng dụng thực tế & Ôn tập",
+    "tiet": "19–20", "tiet_tu": 19, "tiet_den": 20,
+    "giai_doan": "GD2",
+    "mo_ta": "Infographic AI theo lĩnh vực (giáo dục/y tế/môi trường/nông nghiệp). Ôn tập GĐ1+GĐ2 qua Quiz Battle. Hướng dẫn KT Định kỳ 1.",
+    "loai": "bai_hoc",
+    "file": "TaiLieu_Tiet19_20_AIThucTe_OntapTongKet.docx"
+  },
+  {
+    "id": "tiet-23-24",
+    "ten": "Design Thinking & Hình thành dự án",
+    "tiet": "23–24", "tiet_tu": 23, "tiet_den": 24,
+    "giai_doan": "GD3",
+    "mo_ta": "Workshop Empathy Map (Stanford d.school). Xác định vấn đề thực tế quanh trường. Phân công vai trò nhóm + lập timeline nội bộ.",
+    "loai": "bai_hoc",
+    "file": "TaiLieu_DesignThinking_Tiet23_24_Lop10.docx"
+  },
+  {
+    "id": "tiet-25-26",
+    "ten": "Thu thập & Làm sạch dữ liệu",
+    "tiet": "25–26", "tiet_tu": 25, "tiet_den": 26,
+    "giai_doan": "GD3",
+    "mo_ta": "Quy trình thu thập dữ liệu chuẩn (≥50 mẫu/nhóm). Phát hiện ảnh mờ/sai nhãn, kiểm tra chéo chất lượng dữ liệu.",
+    "loai": "bai_hoc",
+    "file": "TaiLieu_AI_Tiet25_26_Lop10.docx"
+  },
+  {
+    "id": "tiet-27-28",
+    "ten": "Huấn luyện mô hình lần 1 & Đánh giá",
+    "tiet": "27–28", "tiet_tu": 27, "tiet_den": 28,
+    "giai_doan": "GD3",
+    "mo_ta": "Huấn luyện mô hình v1 có GV hỗ trợ. Kiểm thử hệ thống với 15 ảnh mới, phân tích lỗi và lập danh sách cải thiện.",
+    "loai": "bai_hoc",
+    "file": "TaiLieu_AI_Tiet27_28_Lop10.docx"
+  },
+  {
+    "id": "tiet-29-30",
+    "ten": "Cải thiện mô hình & Khảo sát người dùng",
+    "tiet": "29–30", "tiet_tu": 29, "tiet_den": 30,
+    "giai_doan": "GD3",
+    "mo_ta": "Huấn luyện lại → mô hình v2 tốt hơn v1. Mời 3–5 bạn ngoài nhóm thử sản phẩm, thu phản hồi qua Google Form.",
+    "loai": "bai_hoc",
+    "file": "TaiLieu_AI_Tiet29_30_Lop10.docx"
+  },
+  {
+    "id": "tiet-31-32",
+    "ten": "Hoàn thiện sản phẩm & Tài liệu",
+    "tiet": "31–32", "tiet_tu": 31, "tiet_den": 32,
+    "giai_doan": "GD3",
+    "mo_ta": "Thiết kế poster A2 (Canva): Vấn đề→Giải pháp→Cách hoạt động→Kết quả→Bài học. Viết báo cáo + slide 8 trang theo template.",
+    "loai": "bai_hoc",
+    "file": "TaiLieu_AI_Tiet31_32_Lop10.docx"
+  },
+  {
+    "id": "tiet-33-36",
+    "ten": "Luyện thuyết trình, Demo Day & Bảo vệ",
+    "tiet": "33–36", "tiet_tu": 33, "tiet_den": 36,
+    "giai_doan": "GD3",
+    "mo_ta": "Peer Review 5 phút/nhóm → chỉnh sửa → rehearsal. Demo Day gallery format. Bảo vệ Q&A + reflection cá nhân.",
+    "loai": "bai_hoc",
+    "file": "TaiLieu_AI_Tiet33_36_Lop10.docx"
+  },
+  {
+    "id": "tiet-37-40",
+    "ten": "Nghề nghiệp AI, Đạo đức AI & Portfolio",
+    "tiet": "37–40", "tiet_tu": 37, "tiet_den": 40,
+    "giai_doan": "GD4",
+    "mo_ta": "Bản đồ nghề nghiệp cá nhân + tác động AI. Hiến chương AI lớp học. Portfolio 6 mục + thư gửi bản thân lớp 11.",
+    "loai": "bai_hoc",
+    "file": "TaiLieu_AI_Tiet37_40_Lop10.docx"
+  }
+]
