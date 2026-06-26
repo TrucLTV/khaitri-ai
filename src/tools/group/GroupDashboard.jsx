@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { collection, doc, setDoc, onSnapshot, serverTimestamp } from 'firebase/firestore'
 import { db } from '../../lib/firebase'
+import TeacherGate from '../../components/TeacherGate'
 
 const TUAN_GD3 = [
   { so: 12, ten: 'Design Thinking & Hình thành dự án', tiet: '23–24' },
@@ -158,19 +159,35 @@ function GroupForm() {
   )
 }
 
-/* ── Main ── */
-export default function GroupDashboard() {
-  const [mode,   setMode]   = useState(null)
+/* ── Teacher dashboard (protected) ── */
+function TeacherDashboard({ onBack }) {
   const [groups, setGroups] = useState([])
 
   useEffect(() => {
-    if (mode !== 'teacher') return
     const unsub = onSnapshot(collection(db, 'groups'), snap => {
       setGroups(snap.docs.map(d => ({ id: d.id, ...d.data() }))
         .sort((a, b) => a.ten_nhom.localeCompare(b.ten_nhom)))
     })
     return unsub
-  }, [mode])
+  }, [])
+
+  return (
+    <div className="space-y-4">
+      <div className="flex items-center justify-between">
+        <div>
+          <h1 className="text-xl font-bold text-gray-800">Dashboard GĐ3</h1>
+          <p className="text-xs text-gray-400">{groups.length} nhóm · cập nhật realtime</p>
+        </div>
+        <button onClick={onBack} className="text-sm text-gray-400 hover:text-gray-600">← Quay lại</button>
+      </div>
+      <TeacherView groups={groups} />
+    </div>
+  )
+}
+
+/* ── Main ── */
+export default function GroupDashboard() {
+  const [mode, setMode] = useState(null)
 
   if (!mode) return (
     <div className="max-w-sm mx-auto pt-8 space-y-4">
@@ -192,15 +209,8 @@ export default function GroupDashboard() {
   )
 
   return (
-    <div className="space-y-4">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-xl font-bold text-gray-800">Dashboard GĐ3</h1>
-          <p className="text-xs text-gray-400">{groups.length} nhóm · cập nhật realtime</p>
-        </div>
-        <button onClick={() => setMode(null)} className="text-sm text-gray-400 hover:text-gray-600">← Quay lại</button>
-      </div>
-      <TeacherView groups={groups} />
-    </div>
+    <TeacherGate>
+      <TeacherDashboard onBack={() => setMode(null)} />
+    </TeacherGate>
   )
 }

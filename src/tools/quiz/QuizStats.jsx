@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react'
 import { collection, onSnapshot } from 'firebase/firestore'
 import { db } from '../../lib/firebase'
+import TeacherGate from '../../components/TeacherGate'
 import allQuestions from '../../data/quiz.json'
 
 const ALL_Q = { ...allQuestions }
 
-export default function QuizStats() {
+function StatsContent() {
   const [results, setResults] = useState([])
   const [mode,    setMode]    = useState('GD1')
 
@@ -102,5 +103,13 @@ export default function QuizStats() {
         </div>
       )}
     </div>
+  )
+}
+
+export default function QuizStats() {
+  return (
+    <TeacherGate>
+      <StatsContent />
+    </TeacherGate>
   )
 }
