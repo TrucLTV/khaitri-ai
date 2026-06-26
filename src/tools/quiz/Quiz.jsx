@@ -1,4 +1,6 @@
 import { useState, useMemo } from 'react'
+import { addDoc, collection, serverTimestamp } from 'firebase/firestore'
+import { db } from '../../lib/firebase'
 import allQuestions from '../../data/quiz.json'
 
 const MODES = [
@@ -199,6 +201,13 @@ export default function Quiz() {
     const newAnswers = [...answers, answer]
     if (current + 1 >= questions.length) {
       setAnswers(newAnswers); setDone(true)
+      const wrongIds = questions
+        .filter((q, i) => newAnswers[i] !== q.dap_an)
+        .map(q => q.id)
+      addDoc(collection(db, 'quiz_results'), {
+        mode, score: newAnswers.filter((a, i) => a === questions[i].dap_an).length,
+        total: questions.length, wrong_ids: wrongIds, ts: serverTimestamp(),
+      }).catch(() => {})
     } else {
       setAnswers(newAnswers); setCurrent(c => c + 1); setAnswer(null)
     }
