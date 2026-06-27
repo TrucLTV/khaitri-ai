@@ -109,15 +109,17 @@ function PhaseAccordion({ gd, tuanList, defaultOpen }) {
   )
 }
 
-/* ── Stats card ── */
-function StatCard({ n, label, icon }) {
-  return (
-    <div className="bg-white/15 backdrop-blur rounded-xl px-5 py-3 text-center">
-      <div className="text-3xl font-black">{n}</div>
-      <div className="text-blue-100 text-xs mt-0.5">{label}</div>
-    </div>
-  )
-}
+const PHASE_COLORS = ['#3b82f6', '#10b981', '#8b5cf6', '#ec4899']
+const STAT_CFG = [
+  { n: '21', label: 'Tuần học',      bg: 'bg-blue-50',   text: 'text-blue-600',   border: 'border-blue-100',
+    icon: <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /> },
+  { n: '42', label: 'Tiết thực dạy', bg: 'bg-emerald-50', text: 'text-emerald-600', border: 'border-emerald-100',
+    icon: <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /> },
+  { n: '4',  label: 'Giai đoạn',     bg: 'bg-violet-50', text: 'text-violet-600',  border: 'border-violet-100',
+    icon: <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /> },
+  { n: '17', label: 'Tài liệu HS',   bg: 'bg-amber-50',  text: 'text-amber-600',  border: 'border-amber-100',
+    icon: <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /> },
+]
 
 export default function Home() {
   const { metadata, giai_doan, tuan } = useCurriculum()
@@ -129,59 +131,66 @@ export default function Home() {
   }
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-5">
       {/* ── Hero ── */}
-      <div className="rounded-2xl overflow-hidden shadow-lg"
-        style={{ background: 'linear-gradient(135deg, #1e40af 0%, #2563eb 50%, #3b82f6 100%)' }}>
-        <div className="px-7 pt-7 pb-5">
-          <div className="flex items-start justify-between gap-4">
-            <div>
-              <h1 className="text-3xl font-black text-white tracking-tight">KhaiTriAI</h1>
-              <p className="text-blue-200 text-sm mt-1">{metadata.truong}</p>
-              <p className="text-blue-300 text-xs mt-0.5">{metadata.mon} · {metadata.khoi} · {metadata.nam_hoc}</p>
-            </div>
-            <div className="flex-shrink-0 w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center">
-              <svg className="w-7 h-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1 1 .03 2.698-1.384 2.698H4.182c-1.414 0-2.384-1.698-1.384-2.698L4.8 15.3" />
-              </svg>
-            </div>
-          </div>
+      <div className="rounded-2xl overflow-hidden shadow-md"
+        style={{ background: 'linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 60%, #2563eb 100%)' }}>
+        <div className="px-8 py-7">
+          {/* Badge năm học */}
+          <span className="inline-flex items-center gap-1.5 bg-white/15 text-white/90 text-xs font-semibold px-3 py-1 rounded-full mb-4">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+            {metadata.nam_hoc}
+          </span>
 
-          <div className="flex flex-wrap gap-3 mt-6">
-            {[
-              { n: '21', label: 'tuần học' },
-              { n: '42', label: 'tiết thực dạy' },
-              { n: '4',  label: 'giai đoạn' },
-              { n: '17', label: 'tài liệu HS' },
-            ].map(s => <StatCard key={s.label} {...s} />)}
-          </div>
+          <h1 className="text-4xl font-black text-white tracking-tight leading-none">
+            KhaiTriAI
+          </h1>
+          <p className="text-blue-200 font-medium mt-2">{metadata.mon} · {metadata.khoi}</p>
+          <p className="text-blue-300/80 text-sm mt-0.5">{metadata.truong}</p>
         </div>
 
-        {/* Bottom bar */}
-        <div className="flex border-t border-white/10">
-          {giai_doan.map((gd, i) => {
-            const colors = ['bg-blue-500','bg-emerald-500','bg-violet-500','bg-pink-500']
-            const count  = tuanByGD[gd.id]?.length || 0
-            const total  = tuan.length
-            return (
-              <div key={gd.id} className={`${colors[i]} h-1.5 transition-all`}
-                style={{ width: `${(count / total) * 100}%` }} />
-            )
-          })}
+        {/* Thanh giai đoạn */}
+        <div className="px-8 pb-5">
+          <div className="flex items-center gap-1 mb-2">
+            {giai_doan.map((gd, i) => {
+              const count = tuanByGD[gd.id]?.length || 0
+              const total = tuan.length
+              return (
+                <div key={gd.id} className="flex items-center gap-1"
+                  style={{ width: `${(count / total) * 100}%` }}>
+                  <div className="h-2 rounded-full w-full opacity-90"
+                    style={{ backgroundColor: PHASE_COLORS[i] }} />
+                </div>
+              )
+            })}
+          </div>
+          <div className="flex flex-wrap gap-x-4 gap-y-1">
+            {giai_doan.map((gd, i) => (
+              <span key={gd.id} className="flex items-center gap-1.5 text-xs text-white/60">
+                <span className="w-2 h-2 rounded-full" style={{ backgroundColor: PHASE_COLORS[i] }} />
+                {gd.ten}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
 
-      {/* ── Chú thích ── */}
-      <div className="flex flex-wrap gap-4 text-xs text-gray-500 px-1">
-        {giai_doan.map((gd, i) => {
-          const colors = ['bg-blue-500','bg-emerald-500','bg-violet-500','bg-pink-500']
-          return (
-            <span key={gd.id} className="flex items-center gap-1.5">
-              <span className={`w-2.5 h-2.5 rounded-sm ${colors[i]}`} />
-              {gd.ten}
-            </span>
-          )
-        })}
+      {/* ── Stats row ── */}
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        {STAT_CFG.map(s => (
+          <div key={s.label}
+            className={`${s.bg} border ${s.border} rounded-xl px-4 py-4 flex items-center gap-3`}>
+            <div className={`flex-shrink-0 w-9 h-9 bg-white rounded-lg flex items-center justify-center shadow-sm`}>
+              <svg className={`w-5 h-5 ${s.text}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+                {s.icon}
+              </svg>
+            </div>
+            <div>
+              <p className={`text-2xl font-black ${s.text} leading-none`}>{s.n}</p>
+              <p className="text-xs text-gray-500 mt-0.5">{s.label}</p>
+            </div>
+          </div>
+        ))}
       </div>
 
       {/* ── Accordions ── */}
