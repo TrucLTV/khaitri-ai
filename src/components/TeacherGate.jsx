@@ -9,12 +9,12 @@ function isPinValid() {
 }
 
 export default function TeacherGate({ children }) {
-  const { user, loading: googleLoading, login } = useAuth()
-  const [pinInput,  setPinInput]  = useState('')
-  const [pinOk,     setPinOk]     = useState(isPinValid)
-  const [pinError,  setPinError]  = useState(false)
-  const [tab,       setTab]       = useState('pin')  // 'pin' | 'google'
-  const [googleLoading2, setGl2] = useState(false)
+  const { user, login } = useAuth()
+  const [pinInput,   setPinInput]  = useState('')
+  const [pinOk,      setPinOk]     = useState(isPinValid)
+  const [pinError,   setPinError]  = useState(false)
+  const [tab,        setTab]       = useState('pin')
+  const [gLoading,   setGLoading]  = useState(false)
 
   // Still detecting Google auth state
   if (user === undefined) return (
@@ -37,9 +37,9 @@ export default function TeacherGate({ children }) {
   }
 
   const handleGoogle = async () => {
-    setGl2(true)
+    setGLoading(true)
     await login()
-    setGl2(false)
+    setGLoading(false)
   }
 
   return (
@@ -85,10 +85,10 @@ export default function TeacherGate({ children }) {
 
       {tab === 'google' && (
         <div className="space-y-3">
-          <button onClick={handleGoogle} disabled={googleLoading2}
+          <button onClick={handleGoogle} disabled={gLoading}
             className="w-full flex items-center justify-center gap-3 px-6 py-3 bg-white border-2 border-gray-200 rounded-xl hover:border-primary-300 hover:shadow-sm transition-all font-medium text-gray-700 disabled:opacity-50">
             <GoogleIcon />
-            {googleLoading2 ? 'Đang đăng nhập...' : 'Đăng nhập với Google'}
+            {gLoading ? 'Đang đăng nhập...' : 'Đăng nhập với Google'}
           </button>
           <p className="text-xs text-gray-400 text-center">
             Yêu cầu bật Google Auth trong Firebase Console

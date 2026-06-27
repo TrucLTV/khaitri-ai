@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import {
-  collection, doc, setDoc, onSnapshot,
-  serverTimestamp, getDocs
+  collection, doc, setDoc, addDoc, getDoc, onSnapshot,
+  serverTimestamp
 } from 'firebase/firestore'
 import QRCode from 'react-qr-code'
 import { db } from '../../lib/firebase'
@@ -174,13 +174,12 @@ function VoteScreen({ code: initCode }) {
     if (!key) return
     setLoading(true); setError('')
     try {
-      const snap = await getDocs(collection(db, 'sessions'))
-      const s = snap.docs.find(d => d.id === key)
-      if (!s || !s.data().active) {
+      const snap = await getDoc(doc(db, 'sessions', key))
+      if (!snap.exists() || !snap.data().active) {
         setError('Mã không tồn tại hoặc poll đã đóng')
         setLoading(false); return
       }
-      setSession({ id: s.id, ...s.data() })
+      setSession({ id: snap.id, ...snap.data() })
     } catch { setError('Lỗi kết nối') }
     setLoading(false)
   }
@@ -188,8 +187,7 @@ function VoteScreen({ code: initCode }) {
   const submit = async () => {
     if (chosen === null || !name.trim()) return
     localStorage.setItem('hs_name', name.trim())
-    const voteId = name.trim().replace(/\s+/g, '_') + '_' + Date.now()
-    await setDoc(doc(db, 'sessions', session.id, 'votes', voteId), {
+    await addDoc(collection(db, 'sessions', session.id, 'votes'), {
       choice: chosen, name: name.trim(), ts: serverTimestamp()
     })
     setSubmitted(true)

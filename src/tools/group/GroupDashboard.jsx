@@ -104,7 +104,7 @@ function GroupForm() {
       trang_thai: trangThai,
       ghi_chu: ghiChu.trim(),
       updatedAt: serverTimestamp(),
-    })
+    }, { merge: true })
     setSaved(true); setTimeout(() => setSaved(false), 2000)
   }
 
