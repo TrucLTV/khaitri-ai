@@ -34,7 +34,7 @@ function CreatePoll({ onCreate, user }) {
       type: 'vote', question: question.trim(),
       options: options.map(o => o.trim()),
       active: true,
-      ownerUid: user.uid, ownerName: user.displayName,
+      ownerUid: user?.uid || 'pin-auth', ownerName: user?.displayName || 'Giáo viên',
       createdAt: serverTimestamp(),
     })
     onCreate(code)
